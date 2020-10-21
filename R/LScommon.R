@@ -2153,7 +2153,7 @@ hdi.density    <- function(object, credMass=0.95, allowSplit=FALSE, ...) {
     out <- paste0(generalText, " ", specificText, " ", tableText)
 
   }
-
+  
   return(out)
 }
 .CIsTextLS          <- function(SI = FALSE) {
