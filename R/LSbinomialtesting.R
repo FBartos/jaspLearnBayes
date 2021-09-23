@@ -43,7 +43,7 @@ LSbinomialtesting   <- function(jaspResults, dataset, options, state = NULL) {
   ### inference
   # summary table
   .testsBinomialLS(jaspResults, data, ready, options)
-
+  
   # prior parameter
   if (options[["plotsPrior"]]) {
     if (options[["plotsPriorType"]] != "conditional")
@@ -51,7 +51,7 @@ LSbinomialtesting   <- function(jaspResults, dataset, options, state = NULL) {
     if (options[["plotsPriorType"]] == "conditional")
       .plotsIndividualBinomial2LS(jaspResults, data, ready, options, type = "Prior")
   }
-
+  
   # prior predictive
   if (options[["plotsPredictions"]]) {
     if (options[["plotsPredictionType"]] != "conditional")
@@ -61,7 +61,7 @@ LSbinomialtesting   <- function(jaspResults, dataset, options, state = NULL) {
     if (options[["predictionPlotTable"]])
       .tablePredictions2LS(jaspResults, data, ready, options, type = "Prior")
   }
-
+  
   # predictive accuracy
   if (options[["plotsPredictiveAccuracy"]])
     .plotsPredAccuracyBinomial2LS(jaspResults, data, ready, options)
@@ -710,7 +710,7 @@ LSbinomialtesting   <- function(jaspResults, dataset, options, state = NULL) {
       plotsPredictions$plotObject <- p
     }
   }
-
+  
   return()
 }
 .plotsPredictionsIndividualBinomial2LS  <- function(jaspResults, data, ready, options, type = c("Prior", "Posterior")) {
