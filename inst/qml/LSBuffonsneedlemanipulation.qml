@@ -26,9 +26,9 @@ Form
 	columns: 1
 
 
-	IntegerField 
-	{ 
-		name: "length"; 
+	IntegerField
+	{
+		name: "lengthToDistanceProportion";
 		label: qsTr("Proportion of needle length to interline distance:")
 		defaultValue: 80
 		afterLabel: qsTr("%")
@@ -38,96 +38,152 @@ Form
 
 
 
-	IntegerField   
-	{ 
-		name:			"n"
+	IntegerField
+	{
+		name:			"numberOfThrows"
 		id: n
-		label:			qsTr("Number of throws:")
+		label:			qsTr("Number of tosses:")
 		fieldWidth:		50
 		defaultValue:	100
-		min: 0  
+		min: 0
 	}
 
-	IntegerField   
-	{ 
-		name:			"k"
+	IntegerField
+	{
+		name:			"numberOfCrosses"
 		label:			qsTr("Number of crosses:")
 		fieldWidth:		50
 		defaultValue:	50
 		min: 0
-		max: n.value  
+		max: n.value
 	}
 
 	Group
 	{
   		title: qsTr("Prior for the proportion of crosses")
 
-		IntegerField   
-		{ 
-			name:			"a"
-			label:			qsTr("Prior parameter a: ")
+		IntegerField
+		{
+			name:			"priorAlpha"
+			label:			qsTr("Prior parameter α: ")
 			fieldWidth:		50
 			defaultValue:	1
-			min: 0  
+			min: 0
 		}
 
-		IntegerField   
-		{ 
-			name:			"b"
-			label:			qsTr("Prior parameter b:")
+		IntegerField
+		{
+			name:			"priorBeta"
+			label:			qsTr("Prior parameter β:")
 			fieldWidth:		50
 			defaultValue:	1
-			min: 0  
+			min: 0
 		}
 
 	}
 
-	CIField 
-	{ 
-		name: "CI"; 
-		label: qsTr("Credible interval on " + "\u03c0")
-		defaultValue: 95 
+	CIField
+	{
+		name: "ciLevel";
+		label: qsTr("Credible interval")
+		defaultValue: 95
 	}
-	
+
 	Group
 	{
   		title: qsTr("Plot")
 
-		CheckBox 
-		{ 
-			name: "showPropDistPlot";
+		CheckBox
+		{
+			name: "priorPosteriorProportion";
 			label: qsTr("Prior and posterior for the proportion of crosses");
 
-			CheckBox 
-			{ 
-				name: "legendPropDistPlot"; 
-				label: qsTr("Legend")
-				checked: false
-			}
- 
-		}
-
-		CheckBox 
-		{ 
-			name: "showPiDistPlot";
-			label: qsTr("Implied prior and posterior for " + "\u03c0"); 
-			checked: true 
-
-			CheckBox 
-			{ 
-				name: "CIArrow"; 
+			CheckBox
+			{
+				name: "priorPosteriorProportionCi";
 				label: qsTr("Credible interval")
 				checked: false
 			}
-			CheckBox 
-			{ 
-				name: "legendPiDistPlot"; 
+			CheckBox
+			{
+				name: "priorPosteriorProportionLegend";
 				label: qsTr("Legend")
 				checked: false
 			}
+
 		}
 
+		CheckBox
+		{
+			name: "priorPosteriorPi";
+			label: qsTr("Implied prior and posterior for " + "\u03c0");
+			checked: true
+
+			CheckBox
+			{
+				name: "priorPosteriorPiCi";
+				label: qsTr("Credible interval")
+				checked: false
+			}
+			CheckBox
+			{
+				name: "priorPosteriorPiLegend";
+				label: qsTr("Legend")
+				checked: false
+			}
+            Group
+            {
+                id: options
+                property bool negativeValues	: false
+                property double	min		: negativeValues ? -Infinity : 2
+                property double	max		: 4
+
+
+                CheckBox
+                {
+                    name: "highlight";
+                    label: qsTr("Highlight interval")
+                    checked: false
+                }
+
+                Group
+                {
+                    columns: 2
+                    DoubleField
+                    {
+                        name: "min";
+                        label: qsTr("from");
+                        min: options.min;
+                        max: parseFloat(minmaxMax.value);
+                        defaultValue: 3;
+                        id: minmaxMin;
+                        enabled: minmax.checked
+                        Layout.leftMargin: jaspTheme.columnGroupSpacing
+
+                    }
+
+                    DoubleField
+                    {
+                        name: "max";
+                        label: qsTr("to")	;
+                        min: parseFloat(minmaxMin.value);
+                        max: options.max;
+                        defaultValue: 3.2;
+                        id: minmaxMax;
+                        enabled: minmax.checked
+                        Layout.leftMargin: jaspTheme.columnGroupSpacing
+
+                    }
+
+                }
+
+
+            }
+		}
+
+
 	}
+
 }
 
 

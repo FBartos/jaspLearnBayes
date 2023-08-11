@@ -9,19 +9,19 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Learn Bayes"
-msgstr ""
+msgstr "Bayes Öğrenin"
 
 msgctxt "Description|"
 msgid "Counts"
-msgstr ""
+msgstr "Sayımlar"
 
 msgctxt "Description|"
 msgid "Binomial Estimation"
-msgstr ""
+msgstr "Binom Tahmini"
 
 msgctxt "Description|"
 msgid "Binomial Testing"
-msgstr ""
+msgstr "Binom Testi"
 
 msgctxt "Description|"
 msgid "The Problem of Points"
@@ -37,27 +37,27 @@ msgstr ""
 
 msgctxt "LSbinomialestimation|"
 msgid "Color palette"
-msgstr ""
+msgstr "Renk paleti"
 
 msgctxt "LSbinomialestimation|"
 msgid "Colorblind"
-msgstr ""
+msgstr "Renk körü"
 
 msgctxt "LSbinomialestimation|"
 msgid "Colorblind Alt."
-msgstr ""
+msgstr "Renk Körü Alt."
 
 msgctxt "LSbinomialestimation|"
 msgid "Viridis"
-msgstr ""
+msgstr "Viridis"
 
 msgctxt "LSbinomialestimation|"
 msgid "ggplot2"
-msgstr ""
+msgstr "ggplot2"
 
 msgctxt "LSbinomialestimation|"
 msgid "Gray"
-msgstr ""
+msgstr "Gri"
 
 msgctxt "LSbinomialestimation|"
 msgid "Model"
@@ -65,11 +65,11 @@ msgstr ""
 
 msgctxt "LSbinomialestimation|"
 msgid "Distribution"
-msgstr ""
+msgstr "Dağılım"
 
 msgctxt "LSbinomialestimation|"
 msgid "Parameter (θ)"
-msgstr ""
+msgstr "parametreler (θ)"
 
 msgctxt "LSbinomialestimation|"
 msgid "Model "
@@ -81,7 +81,7 @@ msgstr ""
 
 msgctxt "LSbinomialestimation|"
 msgid "Beta"
-msgstr ""
+msgstr "Beta"
 
 msgctxt "LSbinomialestimation|"
 msgid "α"
@@ -89,51 +89,53 @@ msgstr ""
 
 msgctxt "LSbinomialestimation|"
 msgid "β"
-msgstr ""
+msgstr "b"
 
 msgctxt "LSbinomialestimation|"
 msgid "θ₀"
-msgstr ""
+msgstr "θ₀"
 
 msgctxt "LSbinomialtesting|"
 msgid "Color palette"
-msgstr ""
+msgstr "Renk paleti"
 
 msgctxt "LSbinomialtesting|"
 msgid "Colorblind"
-msgstr ""
+msgstr "Renk körü"
 
 msgctxt "LSbinomialtesting|"
 msgid "Colorblind Alt."
-msgstr ""
+msgstr "Renk Körü Alt."
 
 msgctxt "LSbinomialtesting|"
 msgid "Viridis"
-msgstr ""
+msgstr "Viridis"
 
 msgctxt "LSbinomialtesting|"
 msgid "ggplot2"
-msgstr ""
+msgstr "ggplot2"
 
 msgctxt "LSbinomialtesting|"
 msgid "Gray"
-msgstr ""
+msgstr "Gri"
 
 msgctxt "LSbinomialtesting|"
 msgid "Hypothesis"
-msgstr ""
+msgstr "Hipotez"
 
 msgctxt "LSbinomialtesting|"
 msgid "Prior probability"
 msgstr ""
 
+#, fuzzy
 msgctxt "LSbinomialtesting|"
 msgid "Distribution"
-msgstr ""
+msgstr "Dağılım"
 
+#, fuzzy
 msgctxt "LSbinomialtesting|"
 msgid "Parameter (θ)"
-msgstr ""
+msgstr "parametreler (θ)"
 
 msgctxt "LSbinomialtesting|"
 msgid "Hypothesis "
@@ -147,21 +149,24 @@ msgctxt "LSbinomialtesting|"
 msgid "Spike"
 msgstr ""
 
+#, fuzzy
 msgctxt "LSbinomialtesting|"
 msgid "Beta"
-msgstr ""
+msgstr "Beta"
 
 msgctxt "LSbinomialtesting|"
 msgid "α"
 msgstr ""
 
+#, fuzzy
 msgctxt "LSbinomialtesting|"
 msgid "β"
-msgstr ""
+msgstr "b"
 
+#, fuzzy
 msgctxt "LSbinomialtesting|"
 msgid "θ₀"
-msgstr ""
+msgstr "θ₀"
 
 msgctxt "LSgameofchance|"
 msgid "Points needed to win the game"
@@ -191,9 +196,10 @@ msgctxt "LSgaussianestimation|"
 msgid "Model"
 msgstr ""
 
+#, fuzzy
 msgctxt "LSgaussianestimation|"
 msgid "Distribution"
-msgstr ""
+msgstr "Dağılım"
 
 msgctxt "LSgaussianestimation|"
 msgid "Parameter (μ)"
@@ -223,13 +229,15 @@ msgctxt "LSgaussianestimation|"
 msgid "Show sample means"
 msgstr ""
 
+#, fuzzy
 msgctxt "LSgaussiantesting|"
 msgid "Hypothesis"
-msgstr ""
+msgstr "Hipotez"
 
+#, fuzzy
 msgctxt "LSgaussiantesting|"
 msgid "Distribution"
-msgstr ""
+msgstr "Dağılım"
 
 msgctxt "LSgaussiantesting|"
 msgid "Parameter (μ)"
@@ -320,19 +328,11 @@ msgid "Number of future trials"
 msgstr ""
 
 msgctxt "LSestimationpredictions|"
-msgid "Summary"
-msgstr ""
-
-msgctxt "LSestimationpredictions|"
 msgid "Point estimate"
 msgstr ""
 
 msgctxt "LSestimationpredictions|"
 msgid "Plots"
-msgstr ""
-
-msgctxt "LSestimationpredictions|"
-msgid "Posterior predictive distribution"
 msgstr ""
 
 msgctxt "LSestimationpredictions|"
@@ -364,19 +364,11 @@ msgid "Upper"
 msgstr ""
 
 msgctxt "LSestimationpredictions|"
-msgid "Show sample proportions"
-msgstr ""
-
-msgctxt "LSestimationpredictions|"
 msgid "Predictions table"
 msgstr ""
 
 msgctxt "LSestimationsequential|"
 msgid "Sequential Analysis"
-msgstr ""
-
-msgctxt "LSestimationsequential|"
-msgid "Point estimate"
 msgstr ""
 
 msgctxt "LSestimationsequential|"
@@ -401,10 +393,6 @@ msgstr ""
 
 msgctxt "LSestimationsequential|"
 msgid "Updating table"
-msgstr ""
-
-msgctxt "LSestimationsequential|"
-msgid "Interval"
 msgstr ""
 
 msgctxt "LSestimationsequential|"
@@ -467,10 +455,6 @@ msgctxt "LSgaussiandatainput|"
 msgid "Selected"
 msgstr ""
 
-msgctxt "LSintrotext|"
-msgid "Introductory texts"
-msgstr ""
-
 msgctxt "LStestingpredictions|"
 msgid "Posterior Prediction"
 msgstr ""
@@ -480,19 +464,7 @@ msgid "Number of future trials"
 msgstr ""
 
 msgctxt "LStestingpredictions|"
-msgid "Summary"
-msgstr ""
-
-msgctxt "LStestingpredictions|"
 msgid "Point estimate"
-msgstr ""
-
-msgctxt "LStestingpredictions|"
-msgid "Plots"
-msgstr ""
-
-msgctxt "LStestingpredictions|"
-msgid "Posterior predictive distribution"
 msgstr ""
 
 msgctxt "LStestingpredictions|"
@@ -544,19 +516,11 @@ msgid "Upper"
 msgstr ""
 
 msgctxt "LStestingpredictions|"
-msgid "Show sample proportions"
-msgstr ""
-
-msgctxt "LStestingpredictions|"
 msgid "Predictions table"
 msgstr ""
 
 msgctxt "LStestingsequential|"
 msgid "Sequential Analysis"
-msgstr ""
-
-msgctxt "LStestingsequential|"
-msgid "Test results"
 msgstr ""
 
 msgctxt "LStestingsequential|"
@@ -815,53 +779,65 @@ msgctxt "LSbinaryclassification|"
 msgid "Number of posterior samples"
 msgstr ""
 
+#, fuzzy
 msgctxt "LSgaussianestimation|"
 msgid "Color palette"
-msgstr ""
+msgstr "Renk paleti"
 
+#, fuzzy
 msgctxt "LSgaussianestimation|"
 msgid "Colorblind"
-msgstr ""
+msgstr "Renk körü"
 
+#, fuzzy
 msgctxt "LSgaussianestimation|"
 msgid "Colorblind Alt."
-msgstr ""
+msgstr "Renk Körü Alt."
 
+#, fuzzy
 msgctxt "LSgaussianestimation|"
 msgid "Viridis"
-msgstr ""
+msgstr "Viridis"
 
+#, fuzzy
 msgctxt "LSgaussianestimation|"
 msgid "ggplot2"
-msgstr ""
+msgstr "ggplot2"
 
+#, fuzzy
 msgctxt "LSgaussianestimation|"
 msgid "Gray"
-msgstr ""
+msgstr "Gri"
 
+#, fuzzy
 msgctxt "LSgaussiantesting|"
 msgid "Color palette"
-msgstr ""
+msgstr "Renk paleti"
 
+#, fuzzy
 msgctxt "LSgaussiantesting|"
 msgid "Colorblind"
-msgstr ""
+msgstr "Renk körü"
 
+#, fuzzy
 msgctxt "LSgaussiantesting|"
 msgid "Colorblind Alt."
-msgstr ""
+msgstr "Renk Körü Alt."
 
+#, fuzzy
 msgctxt "LSgaussiantesting|"
 msgid "Viridis"
-msgstr ""
+msgstr "Viridis"
 
+#, fuzzy
 msgctxt "LSgaussiantesting|"
 msgid "ggplot2"
-msgstr ""
+msgstr "ggplot2"
 
+#, fuzzy
 msgctxt "LSgaussiantesting|"
 msgid "Gray"
-msgstr ""
+msgstr "Gri"
 
 msgctxt "LSgaussiantesting|"
 msgid "Observed mean"
@@ -919,18 +895,6 @@ msgctxt "LSestimationpriorandposterior|"
 msgid "Observed proportion"
 msgstr ""
 
-msgctxt "LSestimationsequential|"
-msgid "Stacked distributions"
-msgstr ""
-
-msgctxt "LStestingpredictiveperformance|"
-msgid "Predictive Performance"
-msgstr ""
-
-msgctxt "LStestingpredictiveperformance|"
-msgid "Prior predictive distribution"
-msgstr ""
-
 msgctxt "LStestingpredictiveperformance|"
 msgid "Conditional"
 msgstr ""
@@ -980,10 +944,6 @@ msgid "Predictions table"
 msgstr ""
 
 msgctxt "LStestingpredictiveperformance|"
-msgid "Predictive accuracy"
-msgstr ""
-
-msgctxt "LStestingpredictiveperformance|"
 msgid "Normalized"
 msgstr ""
 
@@ -1013,10 +973,6 @@ msgstr ""
 
 msgctxt "LStestingpredictiveperformance|"
 msgid "log(BF₁₀)"
-msgstr ""
-
-msgctxt "LStestingpriorandposterior|"
-msgid "Prior and Posterior Distributions"
 msgstr ""
 
 msgctxt "LStestingpriorandposterior|"
@@ -1100,27 +1056,11 @@ msgid "%"
 msgstr ""
 
 msgctxt "LSBuffonsneedlemanipulation|"
-msgid "Number of throws:"
-msgstr ""
-
-msgctxt "LSBuffonsneedlemanipulation|"
 msgid "Number of crosses:"
 msgstr ""
 
 msgctxt "LSBuffonsneedlemanipulation|"
 msgid "Prior for the proportion of crosses"
-msgstr ""
-
-msgctxt "LSBuffonsneedlemanipulation|"
-msgid "Prior parameter a: "
-msgstr ""
-
-msgctxt "LSBuffonsneedlemanipulation|"
-msgid "Prior parameter b:"
-msgstr ""
-
-msgctxt "LSBuffonsneedlemanipulation|"
-msgid "Credible interval on π"
 msgstr ""
 
 msgctxt "LSBuffonsneedlemanipulation|"
@@ -1152,10 +1092,6 @@ msgid "%"
 msgstr ""
 
 msgctxt "LSBuffonsneedlesimulation|"
-msgid "Number of throws:"
-msgstr ""
-
-msgctxt "LSBuffonsneedlesimulation|"
 msgid "Prior for the proportion of crosses"
 msgstr ""
 
@@ -1165,10 +1101,6 @@ msgstr ""
 
 msgctxt "LSBuffonsneedlesimulation|"
 msgid "Beta prior: parameter b"
-msgstr ""
-
-msgctxt "LSBuffonsneedlesimulation|"
-msgid "Credible interval on π"
 msgstr ""
 
 msgctxt "LSBuffonsneedlesimulation|"
@@ -1201,4 +1133,140 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Buffon's Needle"
+msgstr ""
+
+msgctxt "LSBuffonsneedlemanipulation|"
+msgid "Number of tosses:"
+msgstr ""
+
+msgctxt "LSBuffonsneedlemanipulation|"
+msgid "Highlight interval"
+msgstr ""
+
+msgctxt "LSBuffonsneedlemanipulation|"
+msgid "from"
+msgstr ""
+
+msgctxt "LSBuffonsneedlemanipulation|"
+msgid "to"
+msgstr ""
+
+msgctxt "LSBuffonsneedlesimulation|"
+msgid "Number of tosses:"
+msgstr ""
+
+msgctxt "LSBuffonsneedlesimulation|"
+msgid "Highlight interval"
+msgstr ""
+
+msgctxt "LSBuffonsneedlesimulation|"
+msgid "from"
+msgstr ""
+
+msgctxt "LSBuffonsneedlesimulation|"
+msgid "to"
+msgstr ""
+
+msgctxt "LSBuffonsneedlemanipulation|"
+msgid "Prior parameter α: "
+msgstr ""
+
+msgctxt "LSBuffonsneedlemanipulation|"
+msgid "Prior parameter β:"
+msgstr ""
+
+msgctxt "LSestimationpredictions|"
+msgid "Summary table"
+msgstr ""
+
+msgctxt "LSestimationpredictions|"
+msgid "Distribution plot"
+msgstr ""
+
+msgctxt "LSestimationpredictions|"
+msgid "Type"
+msgstr ""
+
+msgctxt "LSestimationpredictions|"
+msgid "As sample proportion"
+msgstr ""
+
+msgctxt "LSestimationpriorandposterior|"
+msgid "Type"
+msgstr ""
+
+msgctxt "LSestimationsequential|"
+msgid "Point estimate plot"
+msgstr ""
+
+msgctxt "LSestimationsequential|"
+msgid "Type"
+msgstr ""
+
+msgctxt "LSestimationsequential|"
+msgid "Interval estimate plot"
+msgstr ""
+
+msgctxt "LSestimationsequential|"
+msgid "Stacked distributions plot"
+msgstr ""
+
+msgctxt "LSintrotext|"
+msgid "Introductory text"
+msgstr ""
+
+msgctxt "LStestingpredictions|"
+msgid "Summary table"
+msgstr ""
+
+msgctxt "LStestingpredictions|"
+msgid "Predictive distribution plot"
+msgstr ""
+
+msgctxt "LStestingpredictions|"
+msgid "Type"
+msgstr ""
+
+msgctxt "LStestingpredictions|"
+msgid "As sample proportion"
+msgstr ""
+
+msgctxt "LStestingpredictiveperformance|"
+msgid "Prior Predictive Performance"
+msgstr ""
+
+msgctxt "LStestingpredictiveperformance|"
+msgid "Distribution plot"
+msgstr ""
+
+msgctxt "LStestingpredictiveperformance|"
+msgid "Type"
+msgstr ""
+
+msgctxt "LStestingpredictiveperformance|"
+msgid "Predictive accuracy plot"
+msgstr ""
+
+msgctxt "LStestingpredictiveperformance|"
+msgid "Comparison"
+msgstr ""
+
+msgctxt "LStestingpriorandposterior|"
+msgid "Prior and Posterior"
+msgstr ""
+
+msgctxt "LStestingpriorandposterior|"
+msgid "Type"
+msgstr ""
+
+msgctxt "LStestingsequential|"
+msgid "Predictive performance"
+msgstr ""
+
+msgctxt "LStestingsequential|"
+msgid "Type"
+msgstr ""
+
+msgctxt "LStestingsequential|"
+msgid "Comparison"
 msgstr ""

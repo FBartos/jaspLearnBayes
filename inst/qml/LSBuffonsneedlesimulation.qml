@@ -25,9 +25,9 @@ Form
 {
 	columns: 1
 
-	IntegerField 
-	{ 
-		name: "length"; 
+	IntegerField
+	{
+		name: "lengthToDistanceProportion";
 		label: qsTr("Proportion of needle length to interline distance:")
 		defaultValue: 80
 		afterLabel: qsTr("%")
@@ -36,113 +36,166 @@ Form
 	}
 
 
-	IntegerField   
-	{ 
-		name:			"n"
+	IntegerField
+	{
+		name:			"numberOfThrows"
 		id: n
-		label:			qsTr("Number of throws:")
+		label:			qsTr("Number of tosses:")
 		fieldWidth:		50
 		defaultValue:	100
-		min: 0  
+		min: 0
 	}
 
 	Group
 	{
   		title: qsTr("Prior for the proportion of crosses")
 
-		IntegerField   
-		{ 
-			name:			"a"
+		IntegerField
+		{
+			name:			"priorAlpha"
 			label:			qsTr("Beta prior: parameter a")
 			fieldWidth:		50
 			defaultValue:	1
-			min: 0  
+			min: 0
 		}
 
-		IntegerField   
-		{ 
-			name:			"b"
+		IntegerField
+		{
+			name:			"priorBeta"
 			label:			qsTr("Beta prior: parameter b")
 			fieldWidth:		50
 			defaultValue:	1
-			min: 0  
+			min: 0
 		}
 
 	}
 
-	CIField 
-	{ 
-		name: "CI"; 
-		label: qsTr("Credible interval on " + "\u03c0")
-		defaultValue: 95 
+	CIField
+	{
+		name: "ciLevel";
+		label: qsTr("Credible interval")
+		defaultValue: 95
 	}
 
 	Group
 	{
   		title: qsTr("Plot")
 
-		CheckBox 
-		{ 
-			name: "showNeedlePlot";
-			label: qsTr("Needle plot"); 
-			checked: true 
+		CheckBox
+		{
+			name: "needlePlot";
+			label: qsTr("Needle plot");
+			checked: true
 
 
 
-	
-			CheckBox 
-			{ 
-			name: "color";
-			label: qsTr("Color crossing needles"); 
-			checked: false 
+
+			CheckBox
+			{
+			name: "needlePlotCrossingNeedlesColored";
+			label: qsTr("Color crossing needles");
+			checked: false
 			}
 		}
 
 
 
-	
 
-		CheckBox 
-		{ 
-			name: "showPropDistPlot";
+
+		CheckBox
+		{
+			name: "priorPosteriorProportion";
 			label: qsTr("Prior and posterior for the proportion of crosses");
 
-			CheckBox 
-			{ 
-				name: "legendPropDistPlot"; 
+			CheckBox
+			{
+				name: "priorPosteriorProportionCi";
+				label: qsTr("Credible interval")
+				checked: false
+			}
+			CheckBox
+			{
+				name: "priorPosteriorProportionLegend";
 				label: qsTr("Legend")
 				checked: false
 			}
- 
+
 		}
 
-		CheckBox 
-		{ 
-			name: "showPiDistPlot";
-			label: qsTr("Implied prior and posterior for " + "\u03c0"); 
+        CheckBox
+		{
+			name: "priorPosteriorPi";
+			label: qsTr("Implied prior and posterior for " + "\u03c0");
 			checked: true
- 
-			CheckBox 
-			{ 
-				name: "CIArrow"; 
+
+			CheckBox
+			{
+				name: "priorPosteriorPiCi";
 				label: qsTr("Credible interval")
 				checked: false
 			}
 
-			CheckBox 
-			{ 
-				name: "legendPiDistPlot"; 
+			CheckBox
+			{
+				name: "priorPosteriorPiLegend";
 				label: qsTr("Legend")
 				checked: false
 			}
-	
+            Group
+            {
+                id: options
+                property bool negativeValues	: false
+                property double	min		: negativeValues ? -Infinity : 2
+                property double	max		: 4
+
+                CheckBox
+                {
+                    name: "highlight";
+                    label: qsTr("Highlight interval")
+                    checked: false
+                }
+
+
+                Group
+                {
+                    columns: 2
+
+                    DoubleField
+                    {
+                        name: "min";
+                        label: qsTr("from");
+                        min: options.min;
+                        max: parseFloat(minmaxMax.value);
+                        defaultValue: 3;
+                        id: minmaxMin;
+                        enabled: minmax.checked
+                        Layout.leftMargin: jaspTheme.columnGroupSpacing
+                    }
+
+                    DoubleField
+                    {
+                        name: "max";
+                        label: qsTr("to");
+                        min: parseFloat(minmaxMin.value);
+                        max: options.max;
+                        defaultValue: 3.2;
+                        id: minmaxMax;
+                        enabled: minmax.checked;
+                        Layout.leftMargin: jaspTheme.columnGroupSpacing
+
+                    }
+
+                }
+
+
+            }
+
 
 		}
 
 
-	
-	}
 
+	}
 
 
 

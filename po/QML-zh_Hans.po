@@ -9,159 +9,159 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Learn Bayes"
-msgstr ""
+msgstr "学习贝叶斯"
 
 msgctxt "Description|"
 msgid "Learn Bayesian statistics with simple examples and supporting text"
-msgstr ""
+msgstr "通过简单的示例和讲义来学习贝叶斯统计"
 
 msgctxt "Description|"
 msgid "Binary Classification"
-msgstr ""
+msgstr "二元分类"
 
 msgctxt "Description|"
 msgid "Counts"
-msgstr ""
+msgstr "计数"
 
 msgctxt "Description|"
 msgid "Binomial Estimation"
-msgstr ""
+msgstr "二项式估计"
 
 msgctxt "Description|"
 msgid "Binomial Testing"
-msgstr ""
+msgstr "二项式检验"
 
 msgctxt "Description|"
 msgid "The Problem of Points"
-msgstr ""
+msgstr "点数问题"
 
 msgctxt "Description|"
 msgid "Game of Chance"
-msgstr ""
+msgstr "几率游戏问题"
 
 msgctxt "Description|"
 msgid "Game of Skill"
-msgstr ""
+msgstr "技巧游戏问题"
 
 msgctxt "LSbinaryclassification|"
 msgid "Input type"
-msgstr ""
+msgstr "输入类型"
 
 msgctxt "LSbinaryclassification|"
 msgid "Point estimates"
-msgstr ""
+msgstr "点估计"
 
 msgctxt "LSbinaryclassification|"
 msgid "Uncertain estimates"
-msgstr ""
+msgstr "不确定性估计"
 
 msgctxt "LSbinaryclassification|"
 msgid "Load data and specify threshold"
-msgstr ""
+msgstr "加载数据并给出阈值"
 
 msgctxt "LSbinaryclassification|"
 msgid "Estimates"
-msgstr ""
+msgstr "估计"
 
 msgctxt "LSbinaryclassification|"
 msgid "Prevalence"
-msgstr ""
+msgstr "感染率"
 
 msgctxt "LSbinaryclassification|"
 msgid "Sensitivity"
-msgstr ""
+msgstr "灵敏度"
 
 msgctxt "LSbinaryclassification|"
 msgid "Specificity"
-msgstr ""
+msgstr "特异性"
 
 msgctxt "LSbinaryclassification|"
 msgid "Marker"
-msgstr ""
+msgstr "标记"
 
 msgctxt "LSbinaryclassification|"
 msgid "Positive condition (binary)"
-msgstr ""
+msgstr "阳性条件（二项分布）"
 
 msgctxt "LSbinaryclassification|"
 msgid "Test threshold"
-msgstr ""
+msgstr "检验阈值"
 
 msgctxt "LSbinaryclassification|"
 msgid "Data"
-msgstr ""
+msgstr "数据"
 
 msgctxt "LSbinaryclassification|"
 msgid "True positive"
-msgstr ""
+msgstr "真阳性"
 
 msgctxt "LSbinaryclassification|"
 msgid "False positive"
-msgstr ""
+msgstr "假阳性"
 
 msgctxt "LSbinaryclassification|"
 msgid "False negative"
-msgstr ""
+msgstr "假阴性"
 
 msgctxt "LSbinaryclassification|"
 msgid "True negative"
-msgstr ""
+msgstr "真阴性"
 
 msgctxt "LSbinaryclassification|"
 msgid "Priors"
-msgstr ""
+msgstr "先验"
 
 msgctxt "LSbinaryclassification|"
 msgid "~ Beta(α = "
-msgstr ""
+msgstr "~ Beta(α = "
 
 msgctxt "LSbinaryclassification|"
 msgid ")"
-msgstr ""
+msgstr ")"
 
 msgctxt "LSbinaryclassification|"
 msgid "Tables"
-msgstr ""
+msgstr "表格"
 
 msgctxt "LSbinaryclassification|"
 msgid "Statistics"
-msgstr ""
+msgstr "统计量"
 
 msgctxt "LSbinaryclassification|"
 msgid "Confusion matrix"
-msgstr ""
+msgstr "混淆矩阵"
 
 msgctxt "LSbinaryclassification|"
 msgid "Text"
-msgstr ""
+msgstr "文本"
 
 msgctxt "LSbinaryclassification|"
 msgid "Number"
-msgstr ""
+msgstr "数量"
 
 msgctxt "LSbinaryclassification|"
 msgid "Both"
-msgstr ""
+msgstr "两者都"
 
 msgctxt "LSbinaryclassification|"
 msgid "Additional info"
-msgstr ""
+msgstr "附加信息"
 
 msgctxt "LSbinaryclassification|"
 msgid "Priors and posteriors"
-msgstr ""
+msgstr "先验和后验"
 
 msgctxt "LSbinaryclassification|"
 msgid "Plots"
-msgstr ""
+msgstr "绘图"
 
 msgctxt "LSbinaryclassification|"
 msgid "Probability positive"
-msgstr ""
+msgstr "概率为正"
 
 msgctxt "LSbinaryclassification|"
 msgid "Show entire distribution"
-msgstr ""
+msgstr "显示整体分布"
 
 msgctxt "LSbinaryclassification|"
 msgid "Icon plot"
@@ -169,23 +169,23 @@ msgstr ""
 
 msgctxt "LSbinaryclassification|"
 msgid "ROC"
-msgstr ""
+msgstr "ROC"
 
 msgctxt "LSbinaryclassification|"
 msgid "Add realizations from the posterior"
-msgstr ""
+msgstr "从后验添加实现"
 
 msgctxt "LSbinaryclassification|"
 msgid "Test characteristics by threshold"
-msgstr ""
+msgstr "按阈值检验特征"
 
 msgctxt "LSbinaryclassification|"
 msgid "PPV and NPV by prevalence"
-msgstr ""
+msgstr "按患病率划分 PPV 和 NPV"
 
 msgctxt "LSbinaryclassification|"
 msgid "Alluvial plot"
-msgstr ""
+msgstr "冲积图"
 
 msgctxt "LSbinaryclassification|"
 msgid "Signal detection"
@@ -527,9 +527,10 @@ msgctxt "LSgaussiantesting|"
 msgid "Sample means"
 msgstr ""
 
+#, fuzzy
 msgctxt "LSbinomialdatainput|"
 msgid "Data"
-msgstr ""
+msgstr "数据"
 
 msgctxt "LSbinomialdatainput|"
 msgid "Input Type"
@@ -588,20 +589,13 @@ msgid "Number of future trials"
 msgstr ""
 
 msgctxt "LSestimationpredictions|"
-msgid "Summary"
-msgstr ""
-
-msgctxt "LSestimationpredictions|"
 msgid "Point estimate"
 msgstr ""
 
+#, fuzzy
 msgctxt "LSestimationpredictions|"
 msgid "Plots"
-msgstr ""
-
-msgctxt "LSestimationpredictions|"
-msgid "Posterior predictive distribution"
-msgstr ""
+msgstr "绘图"
 
 msgctxt "LSestimationpredictions|"
 msgid "All"
@@ -629,10 +623,6 @@ msgstr ""
 
 msgctxt "LSestimationpredictions|"
 msgid "Upper"
-msgstr ""
-
-msgctxt "LSestimationpredictions|"
-msgid "Show sample proportions"
 msgstr ""
 
 msgctxt "LSestimationpredictions|"
@@ -696,10 +686,6 @@ msgid "Sequential Analysis"
 msgstr ""
 
 msgctxt "LSestimationsequential|"
-msgid "Point estimate"
-msgstr ""
-
-msgctxt "LSestimationsequential|"
 msgid "CI"
 msgstr ""
 
@@ -713,10 +699,6 @@ msgstr ""
 
 msgctxt "LSestimationsequential|"
 msgid "Updating table"
-msgstr ""
-
-msgctxt "LSestimationsequential|"
-msgid "Interval"
 msgstr ""
 
 msgctxt "LSestimationsequential|"
@@ -736,20 +718,18 @@ msgid "Stacked"
 msgstr ""
 
 msgctxt "LSestimationsequential|"
-msgid "Stacked distributions"
-msgstr ""
-
-msgctxt "LSestimationsequential|"
 msgid "Posterior updating table"
 msgstr ""
 
+#, fuzzy
 msgctxt "LSgaussiandatainput|"
 msgid "Data"
-msgstr ""
+msgstr "数据"
 
+#, fuzzy
 msgctxt "LSgaussiandatainput|"
 msgid "Input type"
-msgstr ""
+msgstr "输入类型"
 
 msgctxt "LSgaussiandatainput|"
 msgid "Select variable"
@@ -769,7 +749,7 @@ msgstr ""
 
 msgctxt "LSgaussiandatainput|"
 msgid "Mean"
-msgstr ""
+msgstr "均值"
 
 msgctxt "LSgaussiandatainput|"
 msgid "SD"
@@ -791,10 +771,6 @@ msgctxt "LSgaussiandatainput|"
 msgid "Selected"
 msgstr ""
 
-msgctxt "LSintrotext|"
-msgid "Introductory texts"
-msgstr ""
-
 msgctxt "LStestingpredictions|"
 msgid "Posterior Prediction"
 msgstr ""
@@ -804,19 +780,7 @@ msgid "Number of future trials"
 msgstr ""
 
 msgctxt "LStestingpredictions|"
-msgid "Summary"
-msgstr ""
-
-msgctxt "LStestingpredictions|"
 msgid "Point estimate"
-msgstr ""
-
-msgctxt "LStestingpredictions|"
-msgid "Plots"
-msgstr ""
-
-msgctxt "LStestingpredictions|"
-msgid "Posterior predictive distribution"
 msgstr ""
 
 msgctxt "LStestingpredictions|"
@@ -868,19 +832,7 @@ msgid "Upper"
 msgstr ""
 
 msgctxt "LStestingpredictions|"
-msgid "Show sample proportions"
-msgstr ""
-
-msgctxt "LStestingpredictions|"
 msgid "Predictions table"
-msgstr ""
-
-msgctxt "LStestingpredictiveperformance|"
-msgid "Predictive Performance"
-msgstr ""
-
-msgctxt "LStestingpredictiveperformance|"
-msgid "Prior predictive distribution"
 msgstr ""
 
 msgctxt "LStestingpredictiveperformance|"
@@ -932,10 +884,6 @@ msgid "Predictions table"
 msgstr ""
 
 msgctxt "LStestingpredictiveperformance|"
-msgid "Predictive accuracy"
-msgstr ""
-
-msgctxt "LStestingpredictiveperformance|"
 msgid "Normalized"
 msgstr ""
 
@@ -965,10 +913,6 @@ msgstr ""
 
 msgctxt "LStestingpredictiveperformance|"
 msgid "log(BF₁₀)"
-msgstr ""
-
-msgctxt "LStestingpriorandposterior|"
-msgid "Prior and Posterior Distributions"
 msgstr ""
 
 msgctxt "LStestingpriorandposterior|"
@@ -1036,10 +980,6 @@ msgid "Sequential Analysis"
 msgstr ""
 
 msgctxt "LStestingsequential|"
-msgid "Test results"
-msgstr ""
-
-msgctxt "LStestingsequential|"
 msgid "Conditional"
 msgstr ""
 
@@ -1100,27 +1040,11 @@ msgid "%"
 msgstr ""
 
 msgctxt "LSBuffonsneedlemanipulation|"
-msgid "Number of throws:"
-msgstr ""
-
-msgctxt "LSBuffonsneedlemanipulation|"
 msgid "Number of crosses:"
 msgstr ""
 
 msgctxt "LSBuffonsneedlemanipulation|"
 msgid "Prior for the proportion of crosses"
-msgstr ""
-
-msgctxt "LSBuffonsneedlemanipulation|"
-msgid "Prior parameter a: "
-msgstr ""
-
-msgctxt "LSBuffonsneedlemanipulation|"
-msgid "Prior parameter b:"
-msgstr ""
-
-msgctxt "LSBuffonsneedlemanipulation|"
-msgid "Credible interval on π"
 msgstr ""
 
 msgctxt "LSBuffonsneedlemanipulation|"
@@ -1152,10 +1076,6 @@ msgid "%"
 msgstr ""
 
 msgctxt "LSBuffonsneedlesimulation|"
-msgid "Number of throws:"
-msgstr ""
-
-msgctxt "LSBuffonsneedlesimulation|"
 msgid "Prior for the proportion of crosses"
 msgstr ""
 
@@ -1165,10 +1085,6 @@ msgstr ""
 
 msgctxt "LSBuffonsneedlesimulation|"
 msgid "Beta prior: parameter b"
-msgstr ""
-
-msgctxt "LSBuffonsneedlesimulation|"
-msgid "Credible interval on π"
 msgstr ""
 
 msgctxt "LSBuffonsneedlesimulation|"
@@ -1201,4 +1117,140 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Buffon's Needle"
+msgstr ""
+
+msgctxt "LSBuffonsneedlemanipulation|"
+msgid "Number of tosses:"
+msgstr ""
+
+msgctxt "LSBuffonsneedlemanipulation|"
+msgid "Highlight interval"
+msgstr ""
+
+msgctxt "LSBuffonsneedlemanipulation|"
+msgid "from"
+msgstr ""
+
+msgctxt "LSBuffonsneedlemanipulation|"
+msgid "to"
+msgstr ""
+
+msgctxt "LSBuffonsneedlesimulation|"
+msgid "Number of tosses:"
+msgstr ""
+
+msgctxt "LSBuffonsneedlesimulation|"
+msgid "Highlight interval"
+msgstr ""
+
+msgctxt "LSBuffonsneedlesimulation|"
+msgid "from"
+msgstr ""
+
+msgctxt "LSBuffonsneedlesimulation|"
+msgid "to"
+msgstr ""
+
+msgctxt "LSBuffonsneedlemanipulation|"
+msgid "Prior parameter α: "
+msgstr ""
+
+msgctxt "LSBuffonsneedlemanipulation|"
+msgid "Prior parameter β:"
+msgstr ""
+
+msgctxt "LSestimationpredictions|"
+msgid "Summary table"
+msgstr ""
+
+msgctxt "LSestimationpredictions|"
+msgid "Distribution plot"
+msgstr ""
+
+msgctxt "LSestimationpredictions|"
+msgid "Type"
+msgstr ""
+
+msgctxt "LSestimationpredictions|"
+msgid "As sample proportion"
+msgstr ""
+
+msgctxt "LSestimationpriorandposterior|"
+msgid "Type"
+msgstr ""
+
+msgctxt "LSestimationsequential|"
+msgid "Point estimate plot"
+msgstr ""
+
+msgctxt "LSestimationsequential|"
+msgid "Type"
+msgstr ""
+
+msgctxt "LSestimationsequential|"
+msgid "Interval estimate plot"
+msgstr ""
+
+msgctxt "LSestimationsequential|"
+msgid "Stacked distributions plot"
+msgstr ""
+
+msgctxt "LSintrotext|"
+msgid "Introductory text"
+msgstr ""
+
+msgctxt "LStestingpredictions|"
+msgid "Summary table"
+msgstr ""
+
+msgctxt "LStestingpredictions|"
+msgid "Predictive distribution plot"
+msgstr ""
+
+msgctxt "LStestingpredictions|"
+msgid "Type"
+msgstr ""
+
+msgctxt "LStestingpredictions|"
+msgid "As sample proportion"
+msgstr ""
+
+msgctxt "LStestingpredictiveperformance|"
+msgid "Prior Predictive Performance"
+msgstr ""
+
+msgctxt "LStestingpredictiveperformance|"
+msgid "Distribution plot"
+msgstr ""
+
+msgctxt "LStestingpredictiveperformance|"
+msgid "Type"
+msgstr ""
+
+msgctxt "LStestingpredictiveperformance|"
+msgid "Predictive accuracy plot"
+msgstr ""
+
+msgctxt "LStestingpredictiveperformance|"
+msgid "Comparison"
+msgstr ""
+
+msgctxt "LStestingpriorandposterior|"
+msgid "Prior and Posterior"
+msgstr ""
+
+msgctxt "LStestingpriorandposterior|"
+msgid "Type"
+msgstr ""
+
+msgctxt "LStestingsequential|"
+msgid "Predictive performance"
+msgstr ""
+
+msgctxt "LStestingsequential|"
+msgid "Type"
+msgstr ""
+
+msgctxt "LStestingsequential|"
+msgid "Comparison"
 msgstr ""

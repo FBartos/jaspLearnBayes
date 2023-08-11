@@ -36,11 +36,12 @@ Form {
         initialColumnCount: 2
         buttonsInRow:       true
         function getColHeaderText(defaultName, colIndex) { return String.fromCharCode(65 + colIndex); }
+		function getDefaultValue(columnIndex, rowIndex)	{ return rowIndex === 0 ? 1 : 0; }
 	}
 
 	IntegerField  
 	{ 
-		name: "winPoints"; 
+		name: "pointsToWin"; 
 		label: qsTr("Points needed to win the game"); 
 		fieldWidth: 50
 		defaultValue: 2 
@@ -48,7 +49,7 @@ Form {
 
 	IntegerField   
 	{ 
-		name: "nSims"; 
+		name: "numberOfSimulatedGames"; 
 		label: qsTr("Number of simulated games"); 
 		fieldWidth: 50
 		defaultValue: 500
@@ -57,7 +58,7 @@ Form {
 
 	CheckBox 
 	{ 
-		name: "CI"; 
+		name: "ci"; 
 		label: qsTr("95% HPD"); 
 		checked: true 
 	}
