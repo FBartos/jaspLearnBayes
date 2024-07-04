@@ -36,14 +36,15 @@ Section
 		name:		"dataInputType"
 		title:		qsTr("Input Type")
 		id:			dataInputType
+		defaultValue: dataSetInfo.dataAvailable ? "variable" : "counts"
+
 
 		RadioButton
 		{
 			value:		"variable"
 			label:		qsTr("Select variable")
 			id:			dataInputTypeC
-			checked: 	mainWindow.dataAvailable
-			enabled:	mainWindow.dataAvailable
+			enabled:	dataSetInfo.dataAvailable
 		}
 
 		RadioButton
@@ -51,7 +52,6 @@ Section
 			value:		"counts"
 			label:		qsTr("Specify counts")
 			id:			dataInputTypeA
-			checked:	!mainWindow.dataAvailable
 		}
 
 		RadioButton
@@ -143,7 +143,7 @@ Section
 				name:				"dataVariableSelected"
 				title:				qsTr("Selected")
 				singleVariable:		true
-				allowedColumns:		["ordinal", "nominal","nominalText"]
+				allowedColumns:		["nominal"]
 
 				onCountChanged:
 				{

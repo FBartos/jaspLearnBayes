@@ -133,10 +133,6 @@ msgid "P(H)"
 msgstr "P(H)"
 
 msgctxt "LSbinomialtesting|"
-msgid "Prior probability"
-msgstr "Probabilidade previa"
-
-msgctxt "LSbinomialtesting|"
 msgid "Hypothesis"
 msgstr "Hipótese"
 
@@ -349,20 +345,16 @@ msgid "Icon plot"
 msgstr "Gráfica de iconas"
 
 msgctxt "LSbinaryclassification|"
-msgid "ROC"
-msgstr "ROC"
-
-msgctxt "LSbinaryclassification|"
 msgid "Add realizations from the posterior"
 msgstr "Engadir as realizacións do posterior"
 
 msgctxt "LSbinaryclassification|"
 msgid "Test characteristics by threshold"
-msgstr "Probar as características por limiar"
+msgstr "Características da proba por Limiar"
 
 msgctxt "LSbinaryclassification|"
 msgid "PPV and NPV by prevalence"
-msgstr "VPP e VPN por prevalencia"
+msgstr "VPP e VPN por Prevalencia"
 
 msgctxt "LSbinaryclassification|"
 msgid "Alluvial plot"
@@ -427,10 +419,6 @@ msgstr "Opcións"
 msgctxt "LSbinaryclassification|"
 msgid "Credible intervals"
 msgstr "Intervalos de credibilidade"
-
-msgctxt "LSbinaryclassification|"
-msgid "Number of posterior samples"
-msgstr "Número de mostras posteriores"
 
 msgctxt "LSbinomialestimation|"
 msgid "Model"
@@ -1155,3 +1143,111 @@ msgstr "Tipo"
 msgctxt "LStestingsequential|"
 msgid "Comparison"
 msgstr "Comparación"
+
+msgctxt "LSbinaryclassification|"
+msgid "Observed tests"
+msgstr "Probas observadas"
+
+msgctxt "LSbinaryclassification|"
+msgid "Positive tests"
+msgstr "Probas positivas"
+
+msgctxt "LSbinaryclassification|"
+msgid "Negative tests"
+msgstr "Probas negativas"
+
+msgctxt "LSbinaryclassification|"
+msgid "Update prevalence"
+msgstr "Actualizar a prevalencia"
+
+msgctxt "LSbinaryclassification|"
+msgid "Respect order constraint"
+msgstr "Respetar a restrición de orde"
+
+msgctxt "LSbinaryclassification|"
+msgid "Additional Statistics"
+msgstr "Estatísticos Adicionais"
+
+msgctxt "LSbinaryclassification|"
+msgid "Area plot"
+msgstr "Gráfica de área"
+
+msgctxt "LSbinaryclassification|"
+msgid "Receiver operating characteristic (ROC)"
+msgstr "Característica operativa do receptor (ROC)"
+
+msgctxt "LSbinaryclassification|"
+msgid "Total operating characteristic (TOC)"
+msgstr "Característica operativa total (TOC)"
+
+msgctxt "LSbinaryclassification|"
+msgid "Precision-recall"
+msgstr "Precisión-Exhaustividade"
+
+msgctxt "LSbinaryclassification|"
+msgid "PPV and NPV by threshold"
+msgstr "VPP e VPN por Limiar"
+
+msgctxt "LSbinaryclassification|"
+msgid "Compute results"
+msgstr "Calcular resultados"
+
+msgctxt "LSbinaryclassification|"
+msgid "Colors"
+msgstr "Cores"
+
+msgctxt "LSbinaryclassification|"
+msgid "MCMC parameters"
+msgstr "Parámetros de MCMC"
+
+msgctxt "LSbinaryclassification|"
+msgid "For main model"
+msgstr "Para o modelo principal"
+
+msgctxt "LSbinaryclassification|"
+msgid "No. samples"
+msgstr "Nº mostras"
+
+msgctxt "LSbinaryclassification|"
+msgid "No. burnin samples"
+msgstr "Nº mostras de quecemento"
+
+msgctxt "LSbinaryclassification|"
+msgid "Thinning"
+msgstr "Estreitamento"
+
+msgctxt "LSbinaryclassification|"
+msgid "No. chains"
+msgstr "Nº cadeas"
+
+msgctxt "LSbinaryclassification|"
+msgid "For varying threshold"
+msgstr "Por limiar variante"
+
+msgctxt "LSbinomialestimation|"
+msgid "Truncation"
+msgstr "Tronzado"
+
+msgctxt "LSbinomialestimation|"
+msgid "Lower"
+msgstr "Inferior"
+
+msgctxt "LSbinomialestimation|"
+msgid "Upper"
+msgstr "Superior"
+
+msgctxt "LSbinomialtesting|"
+msgid "Truncation"
+msgstr "Tronzado"
+
+msgctxt "LSbinomialtesting|"
+msgid "Prior prob."
+msgstr ""
+
+msgctxt "LSbinomialtesting|"
+msgid "Lo"
+msgstr ""
+
+msgctxt "LSbinomialtesting|"
+msgid "Up"
+msgstr ""

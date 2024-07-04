@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R 3.6.1\n"
 "Report-Msgid-Bugs-To: github.com/jasp-stats/jasp-issues/issues\n"
-"POT-Creation-Date: 2023-07-15 03:05\n"
-"PO-Revision-Date: 2023-07-15 12:10+0000\n"
+"POT-Creation-Date: 2024-04-20 02:44\n"
+"PO-Revision-Date: 2024-06-10 08:20+0000\n"
 "Last-Translator: Johannes Keyser <joke@fsfe.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/jasp/"
 "jasplearnbayes-r/de/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n==0 ? 0 : n==1 ? 0 : 1;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.6-dev\n"
 
 msgid "Summary Table"
 msgstr "Übersichtstabelle"
@@ -131,8 +131,7 @@ msgid ""
 "condition after the test is positive (i.e., the positive predictive value) "
 "is obtained by applying <b>Bayes theorem</b>:\n"
 "\n"
-"                   <img src = \"img:jaspLearnBayes/icons/bayes.png\", "
-"width=\"500\">\n"
+"                   %s\n"
 "\n"
 "                   <h5>References</h5>\n"
 "                   Pepe, M. S. (2003). <i>The statistical evaluation of "
@@ -147,8 +146,8 @@ msgid ""
 "Evaluation_of_binary_classifiers\">https://wikipedia.org/wiki/"
 "Evaluation_of_binary_classifiers</a>\n"
 "\n"
-"                   <a href=\"https://wikipedia.org/wiki/Bayes%%"
-"27_theorem\">https://wikipedia.org/wiki/Bayes%%27_theorem</a>"
+"                   <a href=\"https://wikipedia.org/wiki/Bayes%"
+"%27_theorem\">https://wikipedia.org/wiki/Bayes%%27_theorem</a>"
 msgstr ""
 "Diese Analyse demonstriert die <b>binäre Klassifikation</b>, ein gängiges "
 "statistisches Verfahren, bei dem Fälle anhand einer Klassifikationsregel in "
@@ -178,8 +177,8 @@ msgstr ""
 "                   In der Praxis gibt es eine wichtige Unterscheidung "
 "zwischen dem <i>wahren</i> Zustand des Falls und der <i>zugewiesenen "
 "Bezeichnung</i>, die durch die Klassifikationsregel gegeben ist.\n"
-"                   In JASP wird der wahre Zustand als <b>Zustand</b> ("
-"positiv/negativ) und die zugewiesene Bezeichnung als <b>Test</b> (positiv/"
+"                   In JASP wird der wahre Zustand als <b>Zustand</b> "
+"(positiv/negativ) und die zugewiesene Bezeichnung als <b>Test</b> (positiv/"
 "negativ) bezeichnet.\n"
 "                   In vielen Anwendungen sind die Zustände oder der Test "
 "möglicherweise nicht symmetrisch, daher sind neben einem allgemeinen "
@@ -209,27 +208,25 @@ msgstr ""
 "einen positiven Zustand hat, nachdem der Test positiv ausgefallen ist (d. h. "
 "der positive prädiktive Wert), durch Anwendung des <b>Satzes von Bayes</b>:\n"
 "\n"
-"                   <img src = \"img:jaspLearnBayes/icons/bayes.png\", width="
-"\"500\">\n"
+"                   %s\n"
 "\n"
 "                   <h5>References</h5>\n"
 "                   Pepe, M. S. (2003). <i>The statistical evaluation of "
-"medical tests for classification and prediction</i>. Oxford University Press."
-"\n"
-"\n"
-"                   <a href=\"https://wikipedia.org/wiki/"
-"Binary_classification\">https://wikipedia.org/wiki/Binary_classification</a>"
-"\n"
+"medical tests for classification and prediction</i>. Oxford University "
+"Press.\n"
 "\n"
 "                   <a href=\"https://de.wikipedia.org/wiki/"
 "Beurteilung_eines_bin%%C3%%A4ren_Klassifikators\">https://de.wikipedia.org/"
-"wiki/Beurteilung_eines_bin%%C3%%A4ren_Klassifikators</a>\n"
+"wiki/Beurteilung_eines_binären_Klassifikators</a>\n"
 "\n"
-"                   <a href=\"https://de.wikipedia.org/wiki/Satz_von_Bayes\""
-">https://de.wikipedia.org/wiki/Satz_von_Bayes</a>"
+"                   <a href=\"https://de.wikipedia.org/wiki/"
+"Satz_von_Bayes\">https://de.wikipedia.org/wiki/Satz_von_Bayes</a>"
 
 msgid "Welcome to binary classification with JASP!"
 msgstr "Willkommen zur binären Klassifizierung mit JASP!"
+
+msgid "Some of the specified colors are not valid colors."
+msgstr "Einige der angegebenen Farben sind keine gültigen Farben."
 
 msgid "The 'Positive condition (binary)' variable must have two levels!"
 msgstr "Die Variable 'Positiver Zustand (binär)' muss zwei Stufen haben!"
@@ -244,8 +241,9 @@ msgstr ""
 "Der Marker-Mittelwert im positiven Zustand (%1$s) muss größer sein als der "
 "Marker-Mittelwert im negativen Zustand (%2$s)."
 
-msgid "Drawing samples"
-msgstr "Stichprobe ziehen"
+#, fuzzy
+msgid "Estimating parameters per varying thresholds..."
+msgstr "Parameterschätzung mit variierenden Schwellwerten..."
 
 msgid "Tables"
 msgstr "Tabellen"
@@ -255,6 +253,24 @@ msgstr "Statistiken"
 
 msgid "Estimate"
 msgstr "Schätzung"
+
+msgid "Mean"
+msgstr "Mittelwert"
+
+msgid "Median"
+msgstr "Median"
+
+msgid "SD"
+msgstr "SD"
+
+msgid "Rhat"
+msgstr "R-Dach"
+
+msgid "Diagnostics"
+msgstr "Diagnostiken"
+
+msgid "Eff. Sample Size"
+msgstr "Eff. Stichprobenumfang"
 
 msgid "Notation"
 msgstr "Notation"
@@ -361,6 +377,9 @@ msgstr "Falsch negativ"
 msgid "True negative"
 msgstr "Richtig negativ"
 
+msgid "Area Plot"
+msgstr "Flächendiagramm"
+
 msgid "Receiving Operating Characteristic Curve"
 msgstr "Operationscharakteristiks-Kurve"
 
@@ -370,8 +389,30 @@ msgstr "Falsch-Positiv-Rate (1-Spezifität)"
 msgid "True Positive Rate (Sensitivity)"
 msgstr "Richtig-Positiv-Rate (Sensitivität)"
 
-msgid "Test Characteristics"
-msgstr "Testcharakteristiken"
+#, fuzzy
+msgid "Total Operating Characteristic Curve"
+msgstr "Gesamte Operationscharakteristiks-Kurve"
+
+msgid "True positives + False positives"
+msgstr "Richtig-Positive + Falsch-Positive"
+
+msgid "True positives"
+msgstr "Richtig Positive"
+
+#, fuzzy
+msgid "Precision-recall"
+msgstr "Genauigkeit-Trefferquote"
+
+#, fuzzy
+msgid "Sensitivity (Recall)"
+msgstr "Sensitivität (Trefferquote)"
+
+#, fuzzy
+msgid "Positive Predictive Value (Precision)"
+msgstr "Positiv prädiktiver Wert (Genauigkeit)"
+
+msgid "Test Characteristics by Threshold"
+msgstr "Testcharakteristiken nach Schwellwert"
 
 msgid "Test Threshold"
 msgstr "Test-Schwellenwert"
@@ -379,11 +420,14 @@ msgstr "Test-Schwellenwert"
 msgid "Characteristic"
 msgstr "Charakteristik"
 
-msgid "PPV and NPV by Prevalence"
-msgstr "PPW und NPW nach Prävalenz"
+msgid "PPV and NPV by Threshold"
+msgstr "PPW und NPW nach Schwellwert"
 
 msgid "Predictive Value"
 msgstr "Prädiktiver Wert"
+
+msgid "PPV and NPV by Prevalence"
+msgstr "PPW und NPW nach Prävalenz"
 
 msgid "Alluvial Plot"
 msgstr "Flussdiagramm"
@@ -413,7 +457,7 @@ msgid "Positive predictive value"
 msgstr "Positiv prädiktiver Wert"
 
 msgid "Negative predictive value"
-msgstr "Negativ prädiktiver Wert"
+msgstr "Negativer Vorhersagewert"
 
 msgid "False discovery rate"
 msgstr "Falscherkennungsrate"
@@ -428,7 +472,22 @@ msgid "False negative rate"
 msgstr "Falsch-negativ-Rate"
 
 msgid "Accuracy"
-msgstr "Treffergenauigkeit"
+msgstr "Genauigkeit"
+
+#, fuzzy
+msgid "Pretest odds"
+msgstr "Prä-Test-Chancen"
+
+#, fuzzy
+msgid "Positive likelihood ratio"
+msgstr "Positiver Likelihood-Quotient"
+
+#, fuzzy
+msgid "Negative likelihood ratio"
+msgstr "Negativer Likelihood-Quotient"
+
+msgid "F-measure"
+msgstr "F-Maß"
 
 msgid "Proportion of a population affected by the condition."
 msgstr "Anteil einer Grundgesamtheit, die von dem Zustand betroffen ist."
@@ -550,9 +609,14 @@ msgstr ""
 msgid "Central credible intervals are based on %i samples."
 msgstr "Zentrale Glaubwürdigkeitsintervalle basieren auf %i-Stichproben."
 
-msgid "Parameter estimates are posterior means based on %i samples."
-msgstr ""
-"Parameterschätzungen sind Posterior-Mittelwerte auf Basis von %i Stichproben."
+msgid "Parameter estimates are based on %i MCMC samples."
+msgstr "Parameterschätzungen basieren auf %i MCMC-Stichproben."
+
+msgid "positive"
+msgstr "positiv"
+
+msgid "negative"
+msgstr "negativ"
 
 msgid "Data Summary"
 msgstr "Datenzusammenfassung"
@@ -572,14 +636,20 @@ msgstr "Misserfolge"
 msgid "spike at %s"
 msgstr "Impuls bei %s"
 
-msgid "beta (%1$s, %2$s)"
-msgstr "beta (%1$s, %2$s)"
+msgid "beta(%1$s, %2$s)"
+msgstr "Beta(%1$s, %2$s)"
 
-msgid "binomial (%1$i, %2$s)"
-msgstr "Binomial (%1$i, %2$s)"
+msgid "beta(%1$s, %2$s)T[%3$s, %4$s]"
+msgstr "Beta(%1$s, %2$s)T[%3$s, %4$s]"
 
-msgid "beta-binomial (%1$i, %2$s, %3$s)"
-msgstr "Beta-Binomial (%1$i, %2$s, %3$s)"
+msgid "binomial(%1$i, %2$s)"
+msgstr "Binomial(%1$i, %2$s)"
+
+msgid "beta-binomial(%1$i, %2$s, %3$s)"
+msgstr "Beta-Binomial(%1$i, %2$s, %3$s)"
+
+msgid "binomial(%1$s, beta(%2$s, %3$s)T[%4$s, %5$s])"
+msgstr "Binomial(%1$s, beta(%2$s, %3$s)T[%4$s, %5$s])"
 
 msgid "Estimation Summary"
 msgstr "Schätzungs-Zusammenfassung"
@@ -697,6 +767,9 @@ msgstr "Log(Likelihood)"
 msgid "P(H|data)"
 msgstr "P(H|Daten)"
 
+msgid "These results are based on %1$i success(es) and %2$i failure(s)"
+msgstr "Diese Ergebnisse basieren auf %1$i Erfolg(en) und %2$i Misserfolg(en)"
+
 msgid ""
 "The plot could not be created because the posterior model probabilities are "
 "not defined."
@@ -731,8 +804,22 @@ msgstr "Beobachtungen"
 msgid "At least 2 hypotheses need to be specified."
 msgstr "Es müssen mindestens 2 Hypothesen spezifiziert werden."
 
+msgid ""
+"The prediction for %1$i observation(s) is based on %2$i success(es) and %3$i "
+"failure(s)"
+msgstr ""
+"Die Vorhersage für %1$i Beobachtung(en) basiert auf %2$i Erfolg(en) und %3$i "
+"Misserfolg(en)"
+
 msgid "The parameter '%1$s' for model/hypothesis '%2$s' must be positive."
 msgstr "Der Parameter '%1$s' für Modell/Hypothese '%2$s' muss positiv sein."
+
+msgid ""
+"The truncation range for model/hypothesis '%s' must be within [0, 1] "
+"interval."
+msgstr ""
+"Der Abschneidebereich für Modell/Hypothese '%s' muss im Intervall [0, 1] "
+"liegen."
 
 msgid ""
 "The parameter '%1$s' for model/hypothesis '%2$s' must be between 0 and 1."
@@ -769,6 +856,16 @@ msgstr "Vorhersage-Zusammenfassung"
 
 msgid "%s Prediction Plots"
 msgstr "%s Vorhersage-Diagramme"
+
+msgid "Conditional %s Plots"
+msgstr "Bedingte %s Diagramme"
+
+msgid "Joint %s Plots"
+msgstr "Gemeinsame %s Diagramme"
+
+#, fuzzy
+msgid "Marginal %s Plots"
+msgstr "Marginale %s Diagramme"
 
 msgid "%1$s %2$s Prediction Plots"
 msgstr "%1$s %2$s Vorhersage-Diagramme"
@@ -1601,12 +1698,6 @@ msgstr ""
 "und 'obere' Grenze definiert ist. Es liefert die Posterior-Masse des "
 "Parameters, der in das benutzerdefinierte Intervall fällt.</li>%s</ul>"
 
-msgid "Mean"
-msgstr "Mittelwert"
-
-msgid "Median"
-msgstr "Median"
-
 msgid "Mode"
 msgstr "Modus"
 
@@ -1662,9 +1753,6 @@ msgstr "A-priori Fähigkeit"
 msgid "Only numeric values are allowed in the input."
 msgstr "Es sind nur numerische Werte in der Eingabe erlaubt."
 
-msgid "SD"
-msgstr "SD"
-
 msgid "normal (%1$s, %2$s)"
 msgstr "Normal (%1$s, %2$s)"
 
@@ -1709,6 +1797,9 @@ msgstr "Zukünftige Daten"
 
 msgid "Inclusion BF"
 msgstr "Inklusion BF"
+
+#~ msgid "Drawing samples"
+#~ msgstr "Stichprobe ziehen"
 
 #~ msgid "%s %i"
 #~ msgstr "%s %i"

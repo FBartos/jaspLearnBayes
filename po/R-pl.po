@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspLearnBayes 0.17.0\n"
-"POT-Creation-Date: 2023-07-15 03:05\n"
-"PO-Revision-Date: 2023-09-20 11:21+0000\n"
+"POT-Creation-Date: 2024-04-20 02:44\n"
+"PO-Revision-Date: 2024-06-20 22:09+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jasp/"
 "jasplearnbayes-r/pl/>\n"
@@ -10,9 +10,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.1-dev\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.6-rc\n"
 
 msgid "Summary Table"
 msgstr "Tabela podsumowująca"
@@ -131,8 +131,7 @@ msgid ""
 "condition after the test is positive (i.e., the positive predictive value) "
 "is obtained by applying <b>Bayes theorem</b>:\n"
 "\n"
-"                   <img src = \"img:jaspLearnBayes/icons/bayes.png\", "
-"width=\"500\">\n"
+"                   %s\n"
 "\n"
 "                   <h5>References</h5>\n"
 "                   Pepe, M. S. (2003). <i>The statistical evaluation of "
@@ -147,11 +146,14 @@ msgid ""
 "Evaluation_of_binary_classifiers\">https://wikipedia.org/wiki/"
 "Evaluation_of_binary_classifiers</a>\n"
 "\n"
-"                   <a href=\"https://wikipedia.org/wiki/Bayes"
-"%%27_theorem\">https://wikipedia.org/wiki/Bayes%%27_theorem</a>"
+"                   <a href=\"https://wikipedia.org/wiki/Bayes%"
+"%27_theorem\">https://wikipedia.org/wiki/Bayes%%27_theorem</a>"
 msgstr ""
 
 msgid "Welcome to binary classification with JASP!"
+msgstr ""
+
+msgid "Some of the specified colors are not valid colors."
 msgstr ""
 
 msgid "The 'Positive condition (binary)' variable must have two levels!"
@@ -165,17 +167,35 @@ msgid ""
 "of marker in negative condition (%2$s)."
 msgstr ""
 
-msgid "Drawing samples"
+msgid "Estimating parameters per varying thresholds..."
 msgstr ""
 
 msgid "Tables"
-msgstr ""
+msgstr "Tabele"
 
 msgid "Statistics"
-msgstr ""
+msgstr "Statystyki"
 
 msgid "Estimate"
 msgstr "Oszacowanie"
+
+msgid "Mean"
+msgstr "Średnia"
+
+msgid "Median"
+msgstr "Mediana"
+
+msgid "SD"
+msgstr "Odch. stand."
+
+msgid "Rhat"
+msgstr "Rhat"
+
+msgid "Diagnostics"
+msgstr ""
+
+msgid "Eff. Sample Size"
+msgstr ""
 
 msgid "Notation"
 msgstr ""
@@ -282,6 +302,9 @@ msgstr ""
 msgid "True negative"
 msgstr ""
 
+msgid "Area Plot"
+msgstr ""
+
 msgid "Receiving Operating Characteristic Curve"
 msgstr ""
 
@@ -291,7 +314,26 @@ msgstr ""
 msgid "True Positive Rate (Sensitivity)"
 msgstr ""
 
-msgid "Test Characteristics"
+msgid "Total Operating Characteristic Curve"
+msgstr ""
+
+msgid "True positives + False positives"
+msgstr ""
+
+#, fuzzy
+msgid "True positives"
+msgstr "Dodatnie"
+
+msgid "Precision-recall"
+msgstr ""
+
+msgid "Sensitivity (Recall)"
+msgstr ""
+
+msgid "Positive Predictive Value (Precision)"
+msgstr ""
+
+msgid "Test Characteristics by Threshold"
 msgstr ""
 
 msgid "Test Threshold"
@@ -300,10 +342,13 @@ msgstr ""
 msgid "Characteristic"
 msgstr ""
 
-msgid "PPV and NPV by Prevalence"
+msgid "PPV and NPV by Threshold"
 msgstr ""
 
 msgid "Predictive Value"
+msgstr ""
+
+msgid "PPV and NPV by Prevalence"
 msgstr ""
 
 msgid "Alluvial Plot"
@@ -350,6 +395,18 @@ msgstr ""
 
 msgid "Accuracy"
 msgstr "Dokładność"
+
+msgid "Pretest odds"
+msgstr ""
+
+msgid "Positive likelihood ratio"
+msgstr ""
+
+msgid "Negative likelihood ratio"
+msgstr ""
+
+msgid "F-measure"
+msgstr ""
 
 msgid "Proportion of a population affected by the condition."
 msgstr ""
@@ -452,8 +509,16 @@ msgstr ""
 msgid "Central credible intervals are based on %i samples."
 msgstr ""
 
-msgid "Parameter estimates are posterior means based on %i samples."
+msgid "Parameter estimates are based on %i MCMC samples."
 msgstr ""
+
+#, fuzzy
+msgid "positive"
+msgstr "Dodatnie"
+
+#, fuzzy
+msgid "negative"
+msgstr "Ujemny"
 
 msgid "Data Summary"
 msgstr "Podsumowanie"
@@ -473,13 +538,24 @@ msgstr "Porażki"
 msgid "spike at %s"
 msgstr ""
 
-msgid "beta (%1$s, %2$s)"
+#, fuzzy
+msgid "beta(%1$s, %2$s)"
 msgstr "beta (%1$s, %2$s)"
 
-msgid "binomial (%1$i, %2$s)"
+#, fuzzy
+msgid "beta(%1$s, %2$s)T[%3$s, %4$s]"
+msgstr "beta (%1$s, %2$s)"
+
+#, fuzzy
+msgid "binomial(%1$i, %2$s)"
 msgstr "dwumianowy (%1$i, %2$s)"
 
-msgid "beta-binomial (%1$i, %2$s, %3$s)"
+#, fuzzy
+msgid "beta-binomial(%1$i, %2$s, %3$s)"
+msgstr "beta-dwumianowy (%1$i, %2$s, %3$s)"
+
+#, fuzzy
+msgid "binomial(%1$s, beta(%2$s, %3$s)T[%4$s, %5$s])"
 msgstr "beta-dwumianowy (%1$i, %2$s, %3$s)"
 
 msgid "Estimation Summary"
@@ -588,6 +664,9 @@ msgstr ""
 msgid "P(H|data)"
 msgstr ""
 
+msgid "These results are based on %1$i success(es) and %2$i failure(s)"
+msgstr ""
+
 msgid ""
 "The plot could not be created because the posterior model probabilities are "
 "not defined."
@@ -609,7 +688,7 @@ msgid "Joint probability"
 msgstr ""
 
 msgid "Posterior probability"
-msgstr ""
+msgstr "Prawdopodobieństwo posterior"
 
 msgid "Plotting not possible: One of the Bayes factor is equal to infinity."
 msgstr ""
@@ -620,7 +699,17 @@ msgstr "Obserwacje"
 msgid "At least 2 hypotheses need to be specified."
 msgstr ""
 
+msgid ""
+"The prediction for %1$i observation(s) is based on %2$i success(es) and %3$i "
+"failure(s)"
+msgstr ""
+
 msgid "The parameter '%1$s' for model/hypothesis '%2$s' must be positive."
+msgstr ""
+
+msgid ""
+"The truncation range for model/hypothesis '%s' must be within [0, 1] "
+"interval."
 msgstr ""
 
 msgid ""
@@ -652,9 +741,18 @@ msgid "Sequential Posterior Updating"
 msgstr ""
 
 msgid "Prediction Summary"
-msgstr ""
+msgstr "Podsumowanie predykcji"
 
 msgid "%s Prediction Plots"
+msgstr ""
+
+msgid "Conditional %s Plots"
+msgstr ""
+
+msgid "Joint %s Plots"
+msgstr ""
+
+msgid "Marginal %s Plots"
 msgstr ""
 
 msgid "%1$s %2$s Prediction Plots"
@@ -1147,14 +1245,8 @@ msgid ""
 "interval.</li>%s</ul>"
 msgstr ""
 
-msgid "Mean"
-msgstr "Średnia"
-
-msgid "Median"
-msgstr "Mediana"
-
 msgid "Mode"
-msgstr "Tryb"
+msgstr "Modalna"
 
 msgid "Warning: The number of players must be at least 2. Adjust the inputs!"
 msgstr ""
@@ -1199,9 +1291,6 @@ msgstr ""
 
 msgid "Only numeric values are allowed in the input."
 msgstr ""
-
-msgid "SD"
-msgstr "Odch. stand."
 
 msgid "normal (%1$s, %2$s)"
 msgstr ""

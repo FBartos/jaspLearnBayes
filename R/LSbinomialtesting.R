@@ -182,25 +182,19 @@ LSbinomialtesting   <- function(jaspResults, dataset, options, state = NULL) {
           else
             tempBF <- exp(tempResults$logLik[i]) / exp(tempResults$logLik[sapply(options[["models"]], function(p)p$name) == options[["priorPredictivePerformanceBfVsHypothesis"]]])
 
-        if (tempBF != "") {
-          if (options[["priorPredictivePerformanceBfType"]] == "BF10")
-            tempRow$bf <- tempBF
-          else if (options[["priorPredictivePerformanceBfType"]] == "BF01")
-            tempRow$bf <- 1/tempBF
-          else if (options[["priorPredictivePerformanceBfType"]] == "LogBF10")
-            tempRow$bf <- log(tempBF)
-        }
+        if (tempBF != "")
+          tempRow$bf <- switch(
+            options[["priorPredictivePerformanceBfType"]],
+            "BF10"    = tempBF,
+            "BF01"    = 1/tempBF,
+            "LogBF10" = log(tempBF)
+          )
 
         testsTable$addRows(tempRow)
       }
 
       # add footnote clarifying what dataset was used
-      testsTable$addFootnote(gettextf(
-        "These results are based on %1$i %2$s and %3$i %4$s.",
-        data[["nSuccesses"]], ifelse (data[["nSuccesses"]] == 1, gettext("success"), gettext("successes")),
-        data[["nFailures"]],  ifelse (data[["nFailures"]]  == 1, gettext("failure"), gettext("failures"))
-      ))
-
+      testsTable$addFootnote(gettextf("These results are based on %1$i success(es) and %2$i failure(s)", data[["nSuccesses"]], data[["nFailures"]]))
     }
 
   }
@@ -414,8 +408,7 @@ LSbinomialtesting   <- function(jaspResults, dataset, options, state = NULL) {
     } else if ((type == "Posterior" && !ready["data"]) || (type == "Posterior" && !ready["models"])) {
 
       for (i in 1:length(options[["models"]])) {
-        plotsIndividual[[options[["models"]][[i]]$name]] <- createJaspPlot(title = options[["models"]][[i]]$name,
-                                                                           width = 530, height = 400, aspectRatio = 0.7)
+        plotsIndividual[[options[["models"]][[i]]$name]] <- createJaspPlot(title = options[["models"]][[i]]$name, width = 530, height = 400, aspectRatio = 0.7)
       }
       return()
 
@@ -1081,7 +1074,7 @@ LSbinomialtesting   <- function(jaspResults, dataset, options, state = NULL) {
           options[["sequentialAnalysisPredictivePerformancePlotBfType"]],
           "BF10"    = bquote("BF"["10"]),
           "BF01"    = bquote("BF"["01"]),
-          "LogBF10" = bquote(italic("log")*"(BF)"["10"])
+          "LogBF10" = bquote(italic("log")*"(BF"["10"]*")")
         )
       }
 
@@ -1462,13 +1455,10 @@ LSbinomialtesting   <- function(jaspResults, dataset, options, state = NULL) {
       ))
 
       # add footnote clarifying what dataset was used
-      predictionsTable$addFootnote(gettextf(
-        "The prediction for %1$s %2$s is based on %3$s %4$s and %5$s %6$s.",
-        options[["posteriorPredictionNumberOfFutureTrials"]], ifelse (options[["posteriorPredictionNumberOfFutureTrials"]] == 1, gettext("observation"), gettext("observations")),
-        data[["nSuccesses"]], ifelse (data[["nSuccesses"]] == 1, gettext("success"), gettext("successes")),
-        data[["nFailures"]], ifelse (data[["nFailures"]] == 1, gettext("failure"), gettext("failures"))
-      ))
-
+      predictionsTable$addFootnote(gettextf("The prediction for %1$i observation(s) is based on %2$i success(es) and %3$i failure(s)",
+                                    options[["posteriorPredictionNumberOfFutureTrials"]],
+                                    data[["nSuccesses"]],
+                                    data[["nFailures"]]))
     }
   }
 

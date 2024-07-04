@@ -77,10 +77,6 @@ msgid "Hypothesis"
 msgstr "Hypothese"
 
 msgctxt "LSbinomialtesting|"
-msgid "Prior probability"
-msgstr "Prior-Wahrscheinlichkeit"
-
-msgctxt "LSbinomialtesting|"
 msgid "Distribution"
 msgstr "Verteilung"
 
@@ -642,10 +638,6 @@ msgid "Icon plot"
 msgstr "Icon-Plot"
 
 msgctxt "LSbinaryclassification|"
-msgid "ROC"
-msgstr "ROC"
-
-msgctxt "LSbinaryclassification|"
 msgid "Add realizations from the posterior"
 msgstr "Realisierungen vom Posterior hinzufügen"
 
@@ -720,10 +712,6 @@ msgstr "Optionen"
 msgctxt "LSbinaryclassification|"
 msgid "Credible intervals"
 msgstr "Glaubwürdigkeitsintervalle"
-
-msgctxt "LSbinaryclassification|"
-msgid "Number of posterior samples"
-msgstr "Umfang der Posterior-Stichprobe"
 
 msgctxt "LSgaussiantesting|"
 msgid "Observed mean"
@@ -1156,3 +1144,115 @@ msgstr "Typ"
 msgctxt "LStestingsequential|"
 msgid "Comparison"
 msgstr "Vergleich"
+
+msgctxt "LSbinaryclassification|"
+msgid "Observed tests"
+msgstr "Beobachtete Tests"
+
+msgctxt "LSbinaryclassification|"
+msgid "Positive tests"
+msgstr "Positive Tests"
+
+msgctxt "LSbinaryclassification|"
+msgid "Negative tests"
+msgstr "Negative Tests"
+
+msgctxt "LSbinaryclassification|"
+msgid "Update prevalence"
+msgstr "Prävalenz aktualisieren"
+
+#, fuzzy
+msgctxt "LSbinaryclassification|"
+msgid "Respect order constraint"
+msgstr "Reihenfolgebeschränkung einhalten"
+
+msgctxt "LSbinaryclassification|"
+msgid "Additional Statistics"
+msgstr "Weitere Statistiken"
+
+msgctxt "LSbinaryclassification|"
+msgid "Area plot"
+msgstr "Flächendiagramm"
+
+#, fuzzy
+msgctxt "LSbinaryclassification|"
+msgid "Receiver operating characteristic (ROC)"
+msgstr "Beobachter-Operationscharakteristik (ROC)"
+
+msgctxt "LSbinaryclassification|"
+msgid "Total operating characteristic (TOC)"
+msgstr ""
+
+#, fuzzy
+msgctxt "LSbinaryclassification|"
+msgid "Precision-recall"
+msgstr "Genauigkeit-Trefferquote"
+
+msgctxt "LSbinaryclassification|"
+msgid "PPV and NPV by threshold"
+msgstr "PPW und NPW nach Schwellwert"
+
+msgctxt "LSbinaryclassification|"
+msgid "Compute results"
+msgstr "Ergebnisse berechnen"
+
+msgctxt "LSbinaryclassification|"
+msgid "Colors"
+msgstr "Farben"
+
+msgctxt "LSbinaryclassification|"
+msgid "MCMC parameters"
+msgstr "MCMC-Parameter"
+
+msgctxt "LSbinaryclassification|"
+msgid "For main model"
+msgstr "Für Hauptmodell"
+
+msgctxt "LSbinaryclassification|"
+msgid "No. samples"
+msgstr "Stichprobenumfang"
+
+msgctxt "LSbinaryclassification|"
+msgid "No. burnin samples"
+msgstr "Stichprobenumfang Aufwärmphase"
+
+msgctxt "LSbinaryclassification|"
+msgid "Thinning"
+msgstr "Ausdünnung"
+
+msgctxt "LSbinaryclassification|"
+msgid "No. chains"
+msgstr "Anz. Ketten"
+
+#, fuzzy
+msgctxt "LSbinaryclassification|"
+msgid "For varying threshold"
+msgstr "Für variierenden Schwellwert"
+
+msgctxt "LSbinomialestimation|"
+msgid "Truncation"
+msgstr "Abschneiden"
+
+msgctxt "LSbinomialestimation|"
+msgid "Lower"
+msgstr "Untere"
+
+msgctxt "LSbinomialestimation|"
+msgid "Upper"
+msgstr "Obere"
+
+msgctxt "LSbinomialtesting|"
+msgid "Truncation"
+msgstr "Abschneiden"
+
+msgctxt "LSbinomialtesting|"
+msgid "Prior prob."
+msgstr ""
+
+msgctxt "LSbinomialtesting|"
+msgid "Lo"
+msgstr ""
+
+msgctxt "LSbinomialtesting|"
+msgid "Up"
+msgstr ""

@@ -22,7 +22,7 @@ msgstr "Estimación Binomial"
 
 msgctxt "Description|"
 msgid "Binomial Testing"
-msgstr "Prueba Binomial"
+msgstr "Contraste Binomial"
 
 msgctxt "Description|"
 msgid "The Problem of Points"
@@ -75,10 +75,6 @@ msgstr "θ₀"
 msgctxt "LSbinomialtesting|"
 msgid "Hypothesis"
 msgstr "Hipótesis"
-
-msgctxt "LSbinomialtesting|"
-msgid "Prior probability"
-msgstr "Probabilidad previa"
 
 msgctxt "LSbinomialtesting|"
 msgid "Distribution"
@@ -641,24 +637,20 @@ msgid "Icon plot"
 msgstr "Gráfico de iconos"
 
 msgctxt "LSbinaryclassification|"
-msgid "ROC"
-msgstr "ROC"
-
-msgctxt "LSbinaryclassification|"
 msgid "Add realizations from the posterior"
 msgstr "Añadir las realizaciones del posterior"
 
 msgctxt "LSbinaryclassification|"
 msgid "Test characteristics by threshold"
-msgstr "Contrastar las características por umbral"
+msgstr "Características del contraste por Umbral"
 
 msgctxt "LSbinaryclassification|"
 msgid "PPV and NPV by prevalence"
-msgstr "VPP y VPN por prevalencia"
+msgstr "VPP y VPN por Prevalencia"
 
 msgctxt "LSbinaryclassification|"
 msgid "Alluvial plot"
-msgstr "Gráfica aluvial"
+msgstr "Gráfico aluvial"
 
 msgctxt "LSbinaryclassification|"
 msgid "Signal detection"
@@ -719,10 +711,6 @@ msgstr "Opciones"
 msgctxt "LSbinaryclassification|"
 msgid "Credible intervals"
 msgstr "Intervalos de credibilidad"
-
-msgctxt "LSbinaryclassification|"
-msgid "Number of posterior samples"
-msgstr "Número de muestras posteriores"
 
 msgctxt "LSgaussiantesting|"
 msgid "Observed mean"
@@ -1155,3 +1143,111 @@ msgstr "Tipo"
 msgctxt "LStestingsequential|"
 msgid "Comparison"
 msgstr "Comparación"
+
+msgctxt "LSbinaryclassification|"
+msgid "Observed tests"
+msgstr "Contrastes observados"
+
+msgctxt "LSbinaryclassification|"
+msgid "Positive tests"
+msgstr "Contrastes positivos"
+
+msgctxt "LSbinaryclassification|"
+msgid "Negative tests"
+msgstr "Contrastes negativos"
+
+msgctxt "LSbinaryclassification|"
+msgid "Update prevalence"
+msgstr "Actualizar la prevalencia"
+
+msgctxt "LSbinaryclassification|"
+msgid "Respect order constraint"
+msgstr "Respetar la restricción de orden"
+
+msgctxt "LSbinaryclassification|"
+msgid "Additional Statistics"
+msgstr "Estadísticos Adicionales"
+
+msgctxt "LSbinaryclassification|"
+msgid "Area plot"
+msgstr "Gráfico de área"
+
+msgctxt "LSbinaryclassification|"
+msgid "Receiver operating characteristic (ROC)"
+msgstr "Característica operativa del receptor (ROC)"
+
+msgctxt "LSbinaryclassification|"
+msgid "Total operating characteristic (TOC)"
+msgstr "Característica operativa total (TOC)"
+
+msgctxt "LSbinaryclassification|"
+msgid "Precision-recall"
+msgstr "Precisión-Exhaustividade"
+
+msgctxt "LSbinaryclassification|"
+msgid "PPV and NPV by threshold"
+msgstr "VPP y VPN por Umbral"
+
+msgctxt "LSbinaryclassification|"
+msgid "Compute results"
+msgstr "Calcular resultados"
+
+msgctxt "LSbinaryclassification|"
+msgid "Colors"
+msgstr "Colores"
+
+msgctxt "LSbinaryclassification|"
+msgid "MCMC parameters"
+msgstr "Parámetros de MCMC"
+
+msgctxt "LSbinaryclassification|"
+msgid "For main model"
+msgstr "Para el modelo principal"
+
+msgctxt "LSbinaryclassification|"
+msgid "No. samples"
+msgstr "Nº muestras"
+
+msgctxt "LSbinaryclassification|"
+msgid "No. burnin samples"
+msgstr "Nº muestras de calentamiento"
+
+msgctxt "LSbinaryclassification|"
+msgid "Thinning"
+msgstr "Estrechamiento"
+
+msgctxt "LSbinaryclassification|"
+msgid "No. chains"
+msgstr "Nº cadenas"
+
+msgctxt "LSbinaryclassification|"
+msgid "For varying threshold"
+msgstr "Por umbral variante"
+
+msgctxt "LSbinomialestimation|"
+msgid "Truncation"
+msgstr "Truncamiento"
+
+msgctxt "LSbinomialestimation|"
+msgid "Lower"
+msgstr "Inferior"
+
+msgctxt "LSbinomialestimation|"
+msgid "Upper"
+msgstr "Superior"
+
+msgctxt "LSbinomialtesting|"
+msgid "Truncation"
+msgstr "Truncamiento"
+
+msgctxt "LSbinomialtesting|"
+msgid "Prior prob."
+msgstr ""
+
+msgctxt "LSbinomialtesting|"
+msgid "Lo"
+msgstr ""
+
+msgctxt "LSbinomialtesting|"
+msgid "Up"
+msgstr ""

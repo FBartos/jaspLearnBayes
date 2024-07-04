@@ -77,10 +77,6 @@ msgid "Hypothesis"
 msgstr "Hypothese"
 
 msgctxt "LSbinomialtesting|"
-msgid "Prior probability"
-msgstr "Prior kans"
-
-msgctxt "LSbinomialtesting|"
 msgid "Distribution"
 msgstr "Verdeling"
 
@@ -642,10 +638,6 @@ msgid "Icon plot"
 msgstr "Icoon plot"
 
 msgctxt "LSbinaryclassification|"
-msgid "ROC"
-msgstr "ROC"
-
-msgctxt "LSbinaryclassification|"
 msgid "Add realizations from the posterior"
 msgstr "Voeg realisaties van de posterior toe"
 
@@ -720,10 +712,6 @@ msgstr "Opties"
 msgctxt "LSbinaryclassification|"
 msgid "Credible intervals"
 msgstr "Geloofwaardigheidsintervallen"
-
-msgctxt "LSbinaryclassification|"
-msgid "Number of posterior samples"
-msgstr "Aantal posterior steekproeven"
 
 msgctxt "LSgaussiantesting|"
 msgid "Observed mean"
@@ -1156,3 +1144,111 @@ msgstr "Type"
 msgctxt "LStestingsequential|"
 msgid "Comparison"
 msgstr "Vergelijking"
+
+msgctxt "LSbinaryclassification|"
+msgid "Observed tests"
+msgstr "Waargenomen toetsen"
+
+msgctxt "LSbinaryclassification|"
+msgid "Positive tests"
+msgstr "Positieve toetsen"
+
+msgctxt "LSbinaryclassification|"
+msgid "Negative tests"
+msgstr "Negatieve toetsen"
+
+msgctxt "LSbinaryclassification|"
+msgid "Update prevalence"
+msgstr "Update prevalentie"
+
+msgctxt "LSbinaryclassification|"
+msgid "Respect order constraint"
+msgstr "Ordebeperking respecteren"
+
+msgctxt "LSbinaryclassification|"
+msgid "Additional Statistics"
+msgstr "Aanvullende Statistieken"
+
+msgctxt "LSbinaryclassification|"
+msgid "Area plot"
+msgstr "Gebiedsfiguur"
+
+msgctxt "LSbinaryclassification|"
+msgid "Receiver operating characteristic (ROC)"
+msgstr "Ontvanger operationele karakteristiek (ROC)"
+
+msgctxt "LSbinaryclassification|"
+msgid "Total operating characteristic (TOC)"
+msgstr "Totale operationele karakteristiek (TOC)"
+
+msgctxt "LSbinaryclassification|"
+msgid "Precision-recall"
+msgstr "Precisie-recall"
+
+msgctxt "LSbinaryclassification|"
+msgid "PPV and NPV by threshold"
+msgstr "PPV en NPV per drempel"
+
+msgctxt "LSbinaryclassification|"
+msgid "Compute results"
+msgstr "Bereken resultaten"
+
+msgctxt "LSbinaryclassification|"
+msgid "Colors"
+msgstr "Kleuren"
+
+msgctxt "LSbinaryclassification|"
+msgid "MCMC parameters"
+msgstr "MCMC parameters"
+
+msgctxt "LSbinaryclassification|"
+msgid "For main model"
+msgstr "Voor hoofdmodel"
+
+msgctxt "LSbinaryclassification|"
+msgid "No. samples"
+msgstr "No. trekkingen"
+
+msgctxt "LSbinaryclassification|"
+msgid "No. burnin samples"
+msgstr "No. inbrandtrekkingen"
+
+msgctxt "LSbinaryclassification|"
+msgid "Thinning"
+msgstr "Verdunning"
+
+msgctxt "LSbinaryclassification|"
+msgid "No. chains"
+msgstr "No. ketens"
+
+msgctxt "LSbinaryclassification|"
+msgid "For varying threshold"
+msgstr "Voor variërende drempel"
+
+msgctxt "LSbinomialestimation|"
+msgid "Truncation"
+msgstr "Truncatie"
+
+msgctxt "LSbinomialestimation|"
+msgid "Lower"
+msgstr "Onder"
+
+msgctxt "LSbinomialestimation|"
+msgid "Upper"
+msgstr "Boven"
+
+msgctxt "LSbinomialtesting|"
+msgid "Truncation"
+msgstr "Truncatie"
+
+msgctxt "LSbinomialtesting|"
+msgid "Prior prob."
+msgstr ""
+
+msgctxt "LSbinomialtesting|"
+msgid "Lo"
+msgstr ""
+
+msgctxt "LSbinomialtesting|"
+msgid "Up"
+msgstr ""

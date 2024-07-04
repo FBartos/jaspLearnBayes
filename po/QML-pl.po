@@ -77,10 +77,6 @@ msgid "Hypothesis"
 msgstr "Hipoteza"
 
 msgctxt "LSbinomialtesting|"
-msgid "Prior probability"
-msgstr "Prawdopodobieństwo a priori"
-
-msgctxt "LSbinomialtesting|"
 msgid "Distribution"
 msgstr "Rozkład"
 
@@ -299,7 +295,7 @@ msgstr "PU"
 
 msgctxt "LSestimationpredictions|"
 msgid "Mass"
-msgstr ""
+msgstr "Masa"
 
 msgctxt "LSestimationpredictions|"
 msgid "Lower"
@@ -327,7 +323,7 @@ msgstr "PU"
 
 msgctxt "LSestimationsequential|"
 msgid "Mass"
-msgstr ""
+msgstr "Masa"
 
 msgctxt "LSestimationsequential|"
 msgid "BF"
@@ -423,7 +419,7 @@ msgstr "PU"
 
 msgctxt "LStestingpredictions|"
 msgid "mass"
-msgstr ""
+msgstr "masa"
 
 msgctxt "LStestingpredictions|"
 msgid "lower"
@@ -451,7 +447,7 @@ msgstr "Brzegowe"
 
 msgctxt "LStestingpredictions|"
 msgid "Mass"
-msgstr ""
+msgstr "Masa"
 
 msgctxt "LStestingpredictions|"
 msgid "Lower"
@@ -642,10 +638,6 @@ msgid "Icon plot"
 msgstr ""
 
 msgctxt "LSbinaryclassification|"
-msgid "ROC"
-msgstr "ROC"
-
-msgctxt "LSbinaryclassification|"
 msgid "Add realizations from the posterior"
 msgstr ""
 
@@ -721,10 +713,6 @@ msgctxt "LSbinaryclassification|"
 msgid "Credible intervals"
 msgstr "Przedziały wiarygodności"
 
-msgctxt "LSbinaryclassification|"
-msgid "Number of posterior samples"
-msgstr "Liczba próbek a posteriori"
-
 msgctxt "LSgaussiantesting|"
 msgid "Observed mean"
 msgstr "Średnia obserwowana"
@@ -760,7 +748,7 @@ msgstr "PU"
 
 msgctxt "LSestimationpriorandposterior|"
 msgid "Mass"
-msgstr ""
+msgstr "Masa"
 
 msgctxt "LSestimationpriorandposterior|"
 msgid "Lower"
@@ -799,7 +787,7 @@ msgstr "PU"
 
 msgctxt "LStestingpredictiveperformance|"
 msgid "Mass"
-msgstr ""
+msgstr "Masa"
 
 #, fuzzy
 msgctxt "LStestingpredictiveperformance|"
@@ -889,7 +877,7 @@ msgstr "PU"
 
 msgctxt "LStestingpriorandposterior|"
 msgid "Mass"
-msgstr ""
+msgstr "Masa"
 
 msgctxt "LStestingpriorandposterior|"
 msgid "Lower"
@@ -1169,3 +1157,113 @@ msgstr "Typ"
 msgctxt "LStestingsequential|"
 msgid "Comparison"
 msgstr "Porównanie"
+
+msgctxt "LSbinaryclassification|"
+msgid "Observed tests"
+msgstr ""
+
+msgctxt "LSbinaryclassification|"
+msgid "Positive tests"
+msgstr ""
+
+msgctxt "LSbinaryclassification|"
+msgid "Negative tests"
+msgstr ""
+
+msgctxt "LSbinaryclassification|"
+msgid "Update prevalence"
+msgstr ""
+
+msgctxt "LSbinaryclassification|"
+msgid "Respect order constraint"
+msgstr ""
+
+msgctxt "LSbinaryclassification|"
+msgid "Additional Statistics"
+msgstr "Dodatkowe statystyki"
+
+msgctxt "LSbinaryclassification|"
+msgid "Area plot"
+msgstr ""
+
+msgctxt "LSbinaryclassification|"
+msgid "Receiver operating characteristic (ROC)"
+msgstr ""
+
+msgctxt "LSbinaryclassification|"
+msgid "Total operating characteristic (TOC)"
+msgstr ""
+
+msgctxt "LSbinaryclassification|"
+msgid "Precision-recall"
+msgstr ""
+
+msgctxt "LSbinaryclassification|"
+msgid "PPV and NPV by threshold"
+msgstr ""
+
+msgctxt "LSbinaryclassification|"
+msgid "Compute results"
+msgstr ""
+
+msgctxt "LSbinaryclassification|"
+msgid "Colors"
+msgstr ""
+
+msgctxt "LSbinaryclassification|"
+msgid "MCMC parameters"
+msgstr ""
+
+msgctxt "LSbinaryclassification|"
+msgid "For main model"
+msgstr ""
+
+msgctxt "LSbinaryclassification|"
+msgid "No. samples"
+msgstr ""
+
+msgctxt "LSbinaryclassification|"
+msgid "No. burnin samples"
+msgstr ""
+
+msgctxt "LSbinaryclassification|"
+msgid "Thinning"
+msgstr ""
+
+msgctxt "LSbinaryclassification|"
+msgid "No. chains"
+msgstr ""
+
+msgctxt "LSbinaryclassification|"
+msgid "For varying threshold"
+msgstr ""
+
+msgctxt "LSbinomialestimation|"
+msgid "Truncation"
+msgstr ""
+
+#, fuzzy
+msgctxt "LSbinomialestimation|"
+msgid "Lower"
+msgstr "Dolna granica"
+
+#, fuzzy
+msgctxt "LSbinomialestimation|"
+msgid "Upper"
+msgstr "Górna granica"
+
+msgctxt "LSbinomialtesting|"
+msgid "Truncation"
+msgstr ""
+
+msgctxt "LSbinomialtesting|"
+msgid "Prior prob."
+msgstr ""
+
+msgctxt "LSbinomialtesting|"
+msgid "Lo"
+msgstr ""
+
+msgctxt "LSbinomialtesting|"
+msgid "Up"
+msgstr ""

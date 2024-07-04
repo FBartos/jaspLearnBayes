@@ -54,3 +54,8 @@ Rproj.user
 .Rproj.user
 
 do-not-share/
+renv/settings.json
+renv/activate.R
+.Rprofile
+.Rbuildignore
+_processedLockFile.lock
