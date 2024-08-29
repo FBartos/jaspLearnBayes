@@ -89,6 +89,16 @@ LSbinaryclassification <- function(jaspResults, dataset, options, state = NULL) 
     "falseNegative", "trueNegative", "falsePositive", "truePositive")
     )
 
+  priorParms <- options[grep("^prior\\w+[Alpha,Beta]$", names(options))] |>
+    unlist() |>
+    na.omit()
+
+  if(!is.null(priorParms) && length(priorParms) > 0 && !all(priorParms > 0))
+    gettextf(
+      "JAGS requires strictly positive parameters for Beta priors. Set {\u03B1, \u03B2} > 0 for the prior distributions of Prevalence, Sensitivity, and Specificity."
+      ) |>
+      jaspBase::.quitAnalysis()
+
   if(options[["inputType"]] == "pointEstimates") options[["ci"]] <- FALSE
 
   colors <- .bcGetColors(options)[["values"]]
@@ -2070,11 +2080,13 @@ model{
 
   plotsContainer[["estimatesPlot"]] <-
     createJaspPlot(title        = gettext("Estimates"),
-                   dependencies = c("estimatesPlot", plots, "plotEstimatesType"),
+                   dependencies = c("estimatesPlot", plots, "plotEstimatesType", "ci"),
                    position     = position,
                    width        = 500,
                    height       = 50 + 50 * sum(selectedPlots)
     )
+  if (options[["ci"]])
+    plotsContainer[["estimatesPlot"]]$dependOn("ciLevel")
 
   if(ready && any(selectedPlots)) plotsContainer[["estimatesPlot"]]$plotObject <-
     .bcFillPlotEstimates(results, summary, dataset, options, selectedPlots)

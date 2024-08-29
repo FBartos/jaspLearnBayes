@@ -1231,7 +1231,7 @@ msgstr "Für variierenden Schwellwert"
 
 msgctxt "LSbinomialestimation|"
 msgid "Truncation"
-msgstr "Abschneiden"
+msgstr "Stutzung"
 
 msgctxt "LSbinomialestimation|"
 msgid "Lower"
@@ -1243,16 +1243,18 @@ msgstr "Obere"
 
 msgctxt "LSbinomialtesting|"
 msgid "Truncation"
-msgstr "Abschneiden"
+msgstr "Stutzung"
 
 msgctxt "LSbinomialtesting|"
 msgid "Prior prob."
-msgstr ""
+msgstr "Prior-Wahrsch."
 
+#, fuzzy
 msgctxt "LSbinomialtesting|"
 msgid "Lo"
-msgstr ""
+msgstr "Unten"
 
+#, fuzzy
 msgctxt "LSbinomialtesting|"
 msgid "Up"
-msgstr ""
+msgstr "Oben"

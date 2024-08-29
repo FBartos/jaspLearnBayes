@@ -1242,12 +1242,12 @@ msgstr "Tronzado"
 
 msgctxt "LSbinomialtesting|"
 msgid "Prior prob."
-msgstr ""
+msgstr "Prob. previa"
 
 msgctxt "LSbinomialtesting|"
 msgid "Lo"
-msgstr ""
+msgstr "Inf"
 
 msgctxt "LSbinomialtesting|"
 msgid "Up"
-msgstr ""
+msgstr "Sup"

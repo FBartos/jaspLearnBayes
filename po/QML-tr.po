@@ -29,7 +29,7 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Game of Chance"
-msgstr ""
+msgstr "Şans Oyunu"
 
 msgctxt "Description|"
 msgid "Game of Skill"

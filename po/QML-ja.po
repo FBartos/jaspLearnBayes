@@ -949,7 +949,7 @@ msgstr "凡例"
 
 msgctxt "LSBuffonsneedlemanipulation|"
 msgid "Implied prior and posterior for π"
-msgstr "πにおいて暗黙に仮定している事前および事後分布"
+msgstr "πにおいてモデルに仮定している事前および事後分布"
 
 msgctxt "LSBuffonsneedlemanipulation|"
 msgid "Credible interval"
@@ -997,7 +997,7 @@ msgstr "凡例"
 
 msgctxt "LSBuffonsneedlesimulation|"
 msgid "Implied prior and posterior for π"
-msgstr "πにおいて暗黙に仮定している事前および事後分布"
+msgstr "πにおいてモデルに仮定している事前および事後分布"
 
 msgctxt "LSBuffonsneedlesimulation|"
 msgid "Credible interval"
@@ -1241,12 +1241,12 @@ msgstr "切断"
 
 msgctxt "LSbinomialtesting|"
 msgid "Prior prob."
-msgstr ""
+msgstr "事前確率"
 
 msgctxt "LSbinomialtesting|"
 msgid "Lo"
-msgstr ""
+msgstr "下"
 
 msgctxt "LSbinomialtesting|"
 msgid "Up"
-msgstr ""
+msgstr "上"
