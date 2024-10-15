@@ -1243,12 +1243,12 @@ msgstr "Truncatie"
 
 msgctxt "LSbinomialtesting|"
 msgid "Prior prob."
-msgstr ""
+msgstr "Prior kans"
 
 msgctxt "LSbinomialtesting|"
 msgid "Lo"
-msgstr ""
+msgstr "On"
 
 msgctxt "LSbinomialtesting|"
 msgid "Up"
-msgstr ""
+msgstr "Bo"
